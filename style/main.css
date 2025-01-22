@@ -1158,7 +1158,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
-  margin: auto;
+  margin: auto 0 1em 0;
 }
 
 @media (max-width: 770px) {
