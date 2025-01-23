@@ -648,13 +648,14 @@ margin-bottom: 1em;
 }
 
 .container_info{
-padding: 1em;
+
     display: flex;
     justify-content: center;
    
     color: rgb(131, 129, 129);
     font-size: .8em;
-    padding-bottom: 9em;
+    padding-bottom: 10em;
+    padding-top: 1em;
 }
 ._info{
 
@@ -1105,7 +1106,7 @@ overflow: hidden;
 
 
 
-            *,
+*,
 ::before,
 ::after {
   margin: 0;
@@ -1123,24 +1124,24 @@ body {
 
 #cCarousel {
   position: relative;
-  max-width: 1500px;
+  max-width: 900px;
   margin: auto;
 }
 
 #cCarousel .arrow {
-    position: absolute;
-    top: 50%;
-    display: flex;
-    width: 45px;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    z-index: 1;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    background: #1aadc2;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+  background: #1badc2;
+  cursor: pointer;
 }
 
 #cCarousel #prev {
@@ -1152,13 +1153,13 @@ body {
 }
 
 #carousel-vp {
-  width: 1300px;
+  width: 770px;
   height: 400px;
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
-  margin: auto 0 1em 0;
+  margin: auto;
 }
 
 @media (max-width: 770px) {
@@ -1181,7 +1182,7 @@ body {
   left: 0px;
 }
 
-.cCarousel-item iframe {
+.cCarousel-item iframe{
   width: 250px;
   height: 365px;
   border: 2px solid white;
@@ -1189,6 +1190,13 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  opacity: 1;
+  transition: all .5s ease;
+}
+
+.cCarousel-item iframe:hover{
+opacity: 0.5;
+transition: all .5s ease;
 }
 
 .cCarousel-item img {
@@ -1196,7 +1204,10 @@ body {
   object-fit: cover;
   min-height: 246px;
   color: white;
+
 }
+
+
 
 .cCarousel-item .infos {
   height: 100%;
@@ -1217,4 +1228,3 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-
