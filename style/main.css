@@ -1114,13 +1114,7 @@ overflow: hidden;
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
-}
 
 #cCarousel {
   position: relative;
