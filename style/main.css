@@ -1183,6 +1183,7 @@ body {
 }
 
 .cCarousel-item iframe{
+ 
   width: 250px;
   height: 365px;
   border: 2px solid white;
@@ -1194,12 +1195,27 @@ body {
   transition: all .5s ease;
 }
 
+.cCarousel-item iframe #frame{
+
+}
+a.bt_ver{
+    position: absolute;
+    z-index: 100;
+    width: 250px;
+    height: 365px;
+    background-color: #04672700;
+    z-index: 100;
+    display: block;
+    margin: auto;
+}
+
 .cCarousel-item iframe:hover{
 opacity: 0.5;
 transition: all .5s ease;
 }
 
 .cCarousel-item img {
+    
   width: 100%;
   object-fit: cover;
   min-height: 246px;
