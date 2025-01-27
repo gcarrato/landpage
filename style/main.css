@@ -129,6 +129,7 @@ opacity: .5;
 
 .js .header__nav{
     transition: max-height 1s;
+    width: 100%;
 }
 
 .js .laptop-slider{
@@ -253,6 +254,7 @@ opacity: .5;
     color: white;
     font-size: 1.3em;
     font-weight: 600;
+    padding-top:30px;
 /*padding: 30px 20px;*/
  font-family: 'roboto';
  filter: drop-shadow(2px 2px 1px #1b2e429f);
@@ -656,6 +658,9 @@ margin-bottom: 1em;
     font-size: .8em;
     padding-bottom: 10em;
     padding-top: 1em;
+
+    padding-left: 1.2em;
+    padding-right: 1.2em;
 }
 ._info{
 
@@ -726,6 +731,8 @@ margin-right: .2em;
 
 
 /*RESPONSIVO */
+
+
 @media screen and (min-width: 1024px){
    
     body{
@@ -780,6 +787,12 @@ font-size: 2em;
     width: 100%;
     height: 500px;
     }
+
+    .center_menu{
+max-width: 1000px;
+margin: auto;
+
+    }
     .laptop-slider{
  
         padding: 30px 0 50px;
@@ -793,22 +806,20 @@ font-size: 2em;
         display: block;
         width: 270px;
         height: 60px;
-        margin-left: 30%;
+    
         margin-top: 1.6em;
         margin-right: 2em;
     }
-    .logo-text{
-   max-width: 100%;
-    }
+
     .header__btnMenu{
         display: none;
     }
     
     .header__nav{
-        float: left;
-        width: 25%;
+       
         clear: none;
-        max-width: 800px;
+ 
+        display: contents;
     }
     
     .header__nav ul{
@@ -816,6 +827,8 @@ font-size: 2em;
         justify-content: space-around;
         padding: .5em;
        
+   
+        
     }
   
     .header__nav li {
@@ -1105,14 +1118,8 @@ overflow: hidden;
 
 
 
+ /* CARROSEL */
 
-*,
-::before,
-::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 
 
@@ -1189,9 +1196,7 @@ overflow: hidden;
   transition: all .5s ease;
 }
 
-.cCarousel-item iframe #frame{
 
-}
 a.bt_ver{
     position: absolute;
     z-index: 100;
@@ -1208,33 +1213,6 @@ opacity: 0.5;
 transition: all .5s ease;
 }
 
-.cCarousel-item img {
-    
-  width: 100%;
-  object-fit: cover;
-  min-height: 246px;
-  color: white;
-
-}
 
 
 
-.cCarousel-item .infos {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background: white;
-  color: black;
-}
-
-.cCarousel-item .infos button {
-  background: #222;
-  padding: 10px 30px;
-  border-radius: 15px;
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-}
