@@ -277,8 +277,6 @@
 
 
 
-
-
       </figure>
 
 
@@ -449,7 +447,47 @@
 
   </section>
 
+  <div class="center_fac">
 
+
+    <h3>
+     
+      FAQ Tire suas dúvidas
+    </h3>
+
+
+    <button type="button" class="collapsible">O que é telemedicina?</button>
+    <div class="content_collapsible">
+      <p> telemedicina é uma forma de oferecer serviços médicos a distância através de plataformas digitais, permitindo consultas, diagnósticos e recomendações médicas por meio de videoconferências.</p>
+    </div>
+
+    <button type="button" class="collapsible">Como funcionam as teleconsultas?</button>
+    <div class="content_collapsible">
+      <p> As teleconsultas são realizadas através de uma plataforma online segura, na qual o paciente e o médico se conectam em tempo real para uma consulta médica, com vídeoconferência e chat.</p>
+    </div>
+    <button type="button" class="collapsible">É seguro fazer uma consulta online?</button>
+    <div class="content_collapsible">
+      <p>Sim, a nossa plataforma utiliza medidas avançadas de segurança para garantir a privacidade e confidencialidade das informações dos pacientes. Além disso, todos os médicos são licenciados e capacitados para oferecer consultas a distância.</p>
+    </div>
+    <button type="button" class="collapsible">Preciso de algum equipamento especial para a teleconsulta?</button>
+    <div class="content_collapsible">
+      <p>Não é necessário nenhum equipamento especial. A maioria dos smartphones, tablets ou computadores com câmera e microfone são adequados. É importante ter uma conexão estável com a internet, assim como um ambiente com boa iluminação e privacidade.</p>
+    </div>
+    <button type="button" class="collapsible">Posso receber receitas médicas através da teleconsulta?</button>
+    <div class="content_collapsible">
+      <p>Sim, se o Médico considerar necessário, ele pode emitir receitas, pedidos de exames, atestados e declarações. Os medicamentos de notificação de receita A, B, C2 e C3 por determinação da ANVISA não podem ser emitidos digitalmente.</p>
+    </div>
+    <button type="button" class="collapsible">A telemedicina é reconhecida pelo Conselho Federal de Medicina?</button>
+    <div class="content_collapsible">
+      <p>Sim, a telemedicina é reconhecida e regulamentada pelo Conselho Federal de Medicina, através da Resolução CFM nº 2.314/2022 e pela Lei da telessaúde Nº 14.510, garantindo que as consultas a distância sejam tão válidas quanto as presenciais.</p>
+    </div>
+
+    <button type="button" class="collapsible">Posso usar a telemedicina para qualquer tipo de consulta?</button>
+    <div class="content_collapsible">
+      <p>A telemedicina é eficaz para muitas consultas, mas existem situações que podem exigir uma avaliação presencial, especialmente casos de urgência e emergências ou sempre que o seu Médico achar necessário.</p>
+    </div>
+
+  </div>
 
   <section>
     <div id="cCarousel">
@@ -544,28 +582,6 @@
   </section>
 
 
-<!-- INSTAGRAM
-  <section class="quote-iframe">
-
-    <iframe id="frame" width="100%" scrolling="no" height="568" src="https://www.instagram.com/p/DDfH5mox71T/embed" frameborder="0"></iframe>
-    <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DFGMpqQRLFy/embed" frameborder="0"></iframe>
-    <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DE5ZY4SRRBb/embed" frameborder="0"></iframe>
-    <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DE8KQnmxRVJ/embed" frameborder="0"></iframe>
-    <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DCpUFD_SViw/embed" frameborder="0"></iframe>
-    <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DCXCabmRhzm/embed" frameborder="0"></iframe>
-    <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DCR9JjgxrGh/embed" frameborder="0"></iframe>
-    <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DCHdP1wOoaW/embed" frameborder="0"></iframe>
-
-
-
-  </section>
-
--->
-
-  
-  
-  <!--fim-->
-
 
 
 
@@ -579,13 +595,6 @@
         <br><span class="dest_foot">Licença Sanitária:</span> CMVS n.º 355030801-863-072553-1-4
         
       </p>
-
-      <!--   <p><span class="loca"><img src="img/loca.svg"></span>Rua Amorim Diniz, 60, Penha,
-        São Paulo - SP, 03730-040 <br>
-        <span>CNPJ/MF sob o nº 55.404.998/0001-81</span>
-      </p>
---> 
-
 
 
 
@@ -613,6 +622,24 @@
   <script src="js/carousel.js"></script>
 
   <script src="js/main.js"></script>
+
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
 
 </body>
 

@@ -731,8 +731,16 @@ margin-right: .2em;
 
 
 /*RESPONSIVO */
-
-
+@media (orientation: landscape) {
+    .hero{
+        height: 60vh;
+    }
+}
+@media (orientation: portrait) {
+    .hero{
+        height: 40vh;
+    }
+}
 @media screen and (min-width: 1024px){
    
     body{
@@ -748,6 +756,11 @@ margin-right: .2em;
         position: relative;
         width: 100%;
   
+    }
+
+    .hero{
+        height: 40vh;
+
     }
 .header__nav a {
     text-decoration: none;
@@ -1214,5 +1227,46 @@ transition: all .5s ease;
 }
 
 
+ /* collapsible */
 
+ .center_fac h3{
 
+    font-size: 2.3em;
+    font-weight: 400;
+    color: rgb(131, 129, 129);
+    padding-left: 20px;    
+ }
+
+.center_fac{
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 2em;
+    
+        }
+
+.collapsible {
+    background-color: #1badc2;
+    border-radius: 40px;
+    margin-bottom: 2px;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+    transition: all .3s ease;
+  }
+  
+  .active, .collapsible:hover {
+    background-color:  #05616f;
+    transition: all .3s ease;
+  }
+  
+  .content_collapsible {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
