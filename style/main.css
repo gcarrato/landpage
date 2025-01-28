@@ -1422,29 +1422,30 @@ a.bt_ver {
 }
 
 .center_valor h3 {
-    color: #fff;
+    color: rgb(131, 129, 129);
     padding-top: 1em;
 
-    text-decoration: underline #b3fffa 4px;
+    text-decoration: underline rgb(78 205 198) 4px;
 }
 
 .center_valor p {
-    color: #fff;
+    color: #929da5;
     font-size: .9em;
     padding: 1.3em;
+    text-align: left;
 }
 
 .center_valor .card {
     display: block;
     width: 270px;
-    height: 270px;
-    background-color: #4ecdc5;
-    border-radius: 50%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 40px;
     margin: .3em;
     filter: drop-shadow(2px 2px 1px #1b2e429f);
     justify-content: center;
     text-align: center;
-    border: solid 9px #fff;
+    border: solid 9px #4ecdc5;
 
     transform: scale(1);
     opacity: 1em;
