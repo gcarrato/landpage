@@ -14,6 +14,11 @@ body{
     src: url("../font/Roboto-Regular.ttf");
   }
 
+  @font-face {
+    font-family: RobotoCondensed;
+    src: url("../font/RobotoCondensed.ttf");
+  }  
+
 img{
     max-width: 100%;
 }
@@ -256,7 +261,7 @@ opacity: .5;
     font-weight: 600;
     padding-top:30px;
 /*padding: 30px 20px;*/
- font-family: 'roboto';
+ font-family: 'RobotoCondensed';
  filter: drop-shadow(2px 2px 1px #1b2e429f);
     
 }
@@ -297,7 +302,7 @@ opacity: .5;
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow, transform;
-    font-size: 18px;
+    font-size: 15px;
     text-transform:uppercase;
     margin-bottom: .5em;
 }
@@ -1236,18 +1241,32 @@ transition: all .5s ease;
     color: rgb(131, 129, 129);
     padding-left: 20px;    
  }
+ .center_fac p{
+    text-align: left;
+    color: #929da5;
+    font-size: 1em;
+    padding-top: 1em;
+    
+        }
+        .center_fac span{
+            
+            color: #05616f;
+            font-weight: 600;
+ 
+            
+                }
 
 .center_fac{
     max-width: 1000px;
     margin: auto;
-    padding-bottom: 2em;
+    padding: 1em 1em 2em 1em;
     
         }
 
 .collapsible {
     background-color: #1badc2;
     border-radius: 40px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -1257,7 +1276,9 @@ transition: all .5s ease;
     outline: none;
     font-size: 1em;
     transition: all .3s ease;
-  }
+    filter: drop-shadow(2px 2px 1px #ccc);
+}
+  
   
   .active, .collapsible:hover {
     background-color:  #05616f;
@@ -1269,4 +1290,60 @@ transition: all .5s ease;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    border-radius: 20px;
+  }
+
+
+ /* VALOR */
+ .color_bg{
+    padding-top: 1em;
+    padding-bottom: 1em;
+background-color: #1cadc2;
+
+ }
+
+  .center_valor{
+    max-width: 1000px;
+    margin: auto;
+    padding: 1em 1em 2em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .center_valor h3{
+    color: #fff;
+    padding-top: 1em;
+
+    text-decoration: underline #b3fffa 4px;
+  }
+
+  .center_valor p{
+    color: #fff;
+    font-size: .9em;
+    padding: 1.3em;
+  }
+
+.center_valor .card{
+    display: block;
+    width: 270px;
+    height: 270px;
+    background-color: #4ecdc5;
+    border-radius: 50%;
+    margin: .3em;
+    filter: drop-shadow(2px 2px 1px #1b2e429f);
+    justify-content: center;
+    text-align: center;
+    border: solid 9px #fff;
+
+    transform: scale(1);
+    opacity: 1em;
+    transition: all .4s ease;
+  }
+  .center_valor .card:hover{
+    transform: scale(1.1);
+    opacity: .5em;
+    transition: all .4s ease;
+ cursor: pointer;
   }
