@@ -1438,15 +1438,14 @@ a.bt_ver {
 .center_valor .card {
     display: block;
     width: 270px;
-    height: 400px;
+    height: 377px;
     background-color: #fff;
     border-radius: 40px;
-    margin: .3em;
+    margin: .7em;
     filter: drop-shadow(2px 2px 1px #1b2e429f);
     justify-content: center;
     text-align: center;
     border: solid 9px #4ecdc5;
-
     transform: scale(1);
     opacity: 1em;
     transition: all .4s ease;
