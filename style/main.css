@@ -616,6 +616,7 @@ li a .bt_menu img {
     padding-bottom: .3em;
     display: flex;
     justify-content: center;
+    z-index: 10000;
 }
 
 .rodape {
