@@ -294,7 +294,8 @@ li a .bt_menu img {
     font-weight: 600;
     font-family: 'RobotoCondensed';
     filter: drop-shadow(2px 2px 3px #00000088);
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .hero__text {
