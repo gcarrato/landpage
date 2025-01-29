@@ -2,9 +2,9 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-    background-image: url("../img/rodape_mobile.svg");
-    background-repeat: no-repeat;
-    background-position: bottom center;
+   /* background-image: url("../img/rodape_mobile.svg");
+    background-repeat: no-repeat; 
+    background-position: bottom center;*/
     background-size: 100%;
 
 }
@@ -46,7 +46,7 @@ img {
     position: fixed;
     width: 100%;
     z-index: 10;
-
+    filter: drop-shadow(3px 3px 3px #6f6d6db3);
 }
 
 .menu_resp {
@@ -265,19 +265,27 @@ li a .bt_menu img {
 
 
 .hero {
-    height: 40vh;
-    padding: 40px 20px;
+   
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat,
-        linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat,
-        url(../img/01.jpg);
+    position: relative;
     background-size: 40px 40px, 40px 40px, cover;
 }
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 40vh;
+  }
 
 .hero__title {
 
@@ -291,7 +299,6 @@ li a .bt_menu img {
 
 .bg_title {
     margin-top: 2em;
-    margin-bottom: 1em;
     width: 100%;
     background-color: #00000024;
 }
@@ -379,7 +386,7 @@ li a .bt_menu img {
 }
 
 .people-cards {
-    margin-top: 2.5em;
+    margin-top: 2em;
 }
 
 .people-cards__card {
@@ -716,14 +723,13 @@ img.star_dep {
 
     display: flex;
     justify-content: center;
-
     color: rgb(131, 129, 129);
     font-size: .8em;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
     padding-top: 1em;
-
     padding-left: 1.2em;
     padding-right: 1.2em;
+    border-top: 1px double #4ecdc5;
 }
 
 ._info {
@@ -806,11 +812,27 @@ img.star_dep {
     .hero {
         height: 60vh;
     }
+    .hero video {
+        height: 70vh;
+    }
+
+    .bg_title{
+        margin-top: 3em;
+
+    }
 }
 
 @media (orientation: portrait) {
     .hero {
         height: 40vh;
+    }
+    .hero video {
+        height: 40vh;
+    }
+
+    .bg_title{
+        margin-top: 2em;
+
     }
 }
 
@@ -820,10 +842,10 @@ img.star_dep {
         margin: 0;
         font-family: 'Open Sans', sans-serif;
         line-height: 1.5;
-        background-image: url("../img/rodape.svg") !important;
+       /* background-image: url("../img/rodape.svg") !important;
         background-repeat: no-repeat;
         background-position: center bottom;
-        background-size: contain;
+        background-size: contain;*/
     }
 
     .container_play {
@@ -832,7 +854,7 @@ img.star_dep {
 
     }
 
-    .hero {
+    .hero video,  .hero {
         height: 40vh;
 
     }
@@ -1245,12 +1267,13 @@ a.feed-powered-by-es,
 /* CARROSEL */
 
 
-
-
 #cCarousel {
     position: relative;
     max-width: 900px;
     margin: auto;
+    padding-bottom: 2em;
+    background-color: #f4f7f8;
+    border-radius: 30px;
 }
 
 #cCarousel .arrow {
@@ -1263,7 +1286,7 @@ a.feed-powered-by-es,
     align-items: center;
     border-radius: 50%;
     z-index: 1;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     background: #1badc2;
     cursor: pointer;
@@ -1347,7 +1370,11 @@ a.bt_ver {
     color: rgb(131, 129, 129);
     padding-left: 20px;
 }
+.center_fac h3 span img{
+    width: 1.5em;
+    margin-left: .3em;
 
+}
 .center_fac p {
     text-align: left;
     color: #929da5;
@@ -1370,12 +1397,22 @@ a.bt_ver {
     padding: 1em 1em 2em 1em;
 
 }
+button.collapsible{
 
+    position: relative;
+}
+
+.collapsible span img{
+    position: absolute;
+    width: 1.3em;
+    right: 0;
+    margin-right: 1em;
+    }
 .collapsible {
-    background-color: #1badc2;
+    background-color: #f4f7f8;
     border-radius: 40px;
     margin-bottom: 5px;
-    color: white;
+    color:rgb(131, 129, 129);
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -1390,7 +1427,7 @@ a.bt_ver {
 
 .active,
 .collapsible:hover {
-    background-color: #05616f;
+    background-color: #dee0e1;
     transition: all .3s ease;
 }
 
@@ -1398,18 +1435,12 @@ a.bt_ver {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
     border-radius: 20px;
 }
 
 
 /* VALOR */
-.color_bg {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-color: #1cadc2;
 
-}
 
 .center_valor {
     max-width: 1000px;
@@ -1423,32 +1454,37 @@ a.bt_ver {
 
 .center_valor h3 {
     color: rgb(131, 129, 129);
-    padding-top: 1em;
-
+    /* padding-top: 1em; */
     text-decoration: underline rgb(78 205 198) 4px;
+    display: flex;
+  
+    align-items: center;
+
 }
 
 .center_valor p {
     color: #929da5;
     font-size: .9em;
-    padding: 1.3em;
     text-align: left;
 }
 
 .center_valor .card {
     display: block;
     width: 270px;
-    height: 377px;
-    background-color: #fff;
     border-radius: 40px;
-    margin: .7em;
-    filter: drop-shadow(2px 2px 1px #1b2e429f);
+    margin: 0 2em 0 0;
+   
     justify-content: center;
     text-align: center;
-    border: solid 9px #4ecdc5;
+
     transform: scale(1);
     opacity: 1em;
     transition: all .4s ease;
+}
+
+.center_valor .card span img{
+    width: 3em;
+
 }
 
 .center_valor .card:hover {
