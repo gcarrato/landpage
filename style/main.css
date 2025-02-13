@@ -1481,7 +1481,7 @@ button.collapsible{
     color: #929da5;
     font-size: .9em;
     text-align: left;
-    padding-top: 1em;
+  
 }
 
 .center_valor .card {
@@ -1502,21 +1502,20 @@ button.collapsible{
     display: block;
     width: 510px;
     border-radius: 40px;
-    margin: 0 2em 0 0;
-   
+    /* margin: 0 2em 0 0; */
     justify-content: center;
-  
-
     transform: scale(1);
     opacity: 1em;
     transition: all .4s ease;
+    display: flex;
+    flex-wrap: wrap;
 }
 .center_google .card span img{
     width: 232px;
     height: 165px;
     float: left;
     margin-right: 1em;
-    margin-bottom: 1.5em;
+  
 }
 
 
