@@ -1502,9 +1502,10 @@ button.collapsible{
 
 .center_google .card {
     display: block;
-    width: 510px;
+    width: 270px;
     border-radius: 40px;
     /* margin: 0 2em 0 0; */
+    margin: 0 2em 0 0;
     justify-content: center;
     transform: scale(1);
     opacity: 1em;
@@ -1527,6 +1528,13 @@ button.collapsible{
 }
 
 .center_valor .card:hover {
+    transform: scale(1.1);
+    opacity: .5em;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.center_google .card:hover {
     transform: scale(1.1);
     opacity: .5em;
     transition: all .4s ease;
