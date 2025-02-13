@@ -265,7 +265,7 @@ li a .bt_menu img {
 
 
 .hero {
-   
+    height: 45vh;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
@@ -287,6 +287,8 @@ li a .bt_menu img {
     height: 42vh;
   }
 
+
+
 .hero__title {
 
     color: white;
@@ -296,9 +298,8 @@ li a .bt_menu img {
     filter: drop-shadow(2px 2px 3px #00000088);
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 20px;
+   
 }
-
 .hero__text {
     background-color: #242a2c;
     margin: 5px 30px 35px;
@@ -820,13 +821,13 @@ img.star_dep {
 
 @media (orientation: portrait) {
     .hero {
-        height: 40vh;
+       
     }
     .hero video {
         height: 42vh;
     }
    .hero__title{
-padding-top: 20px;
+
 
    }
   
@@ -1447,8 +1448,17 @@ button.collapsible{
     justify-content: center;
 
 }
+.center_google {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1em 1em 3.2em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-.center_valor h3 {
+}
+
+.center_google .center_valor h3 {
     color: rgb(131, 129, 129);
     /* padding-top: 1em; */
     text-decoration: underline rgb(78 205 198) 4px;
@@ -1457,11 +1467,21 @@ button.collapsible{
     align-items: center;
 
 }
-
-.center_valor p {
+.txt_google{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+ .center_valor p {
     color: #929da5;
     font-size: .9em;
     text-align: left;
+}
+
+.center_google p{
+    color: #929da5;
+    font-size: .9em;
+    text-align: left;
+    padding-top: 1em;
 }
 
 .center_valor .card {
@@ -1471,12 +1491,34 @@ button.collapsible{
     margin: 0 2em 0 0;
    
     justify-content: center;
-    text-align: center;
+   
 
     transform: scale(1);
     opacity: 1em;
     transition: all .4s ease;
 }
+
+.center_google .card {
+    display: block;
+    width: 510px;
+    border-radius: 40px;
+    margin: 0 2em 0 0;
+   
+    justify-content: center;
+  
+
+    transform: scale(1);
+    opacity: 1em;
+    transition: all .4s ease;
+}
+.center_google .card span img{
+    width: 232px;
+    height: 165px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+
 
 .center_valor .card span img{
     width: 3em;
@@ -1484,6 +1526,14 @@ button.collapsible{
 }
 
 .center_valor .card:hover {
+    transform: scale(1.1);
+    opacity: .5em;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+
+.center_google .card:hover {
     transform: scale(1.1);
     opacity: .5em;
     transition: all .4s ease;
