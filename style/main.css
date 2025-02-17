@@ -1425,7 +1425,7 @@ button.collapsible{
 
 .active,
 .collapsible:hover {
-    background-color: #6e6f7078;
+    background-color: rgba(10, 11, 11, 0.56);
     transition: all .3s ease;
 }
 
