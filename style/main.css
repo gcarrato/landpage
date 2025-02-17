@@ -1583,6 +1583,7 @@ button.collapsible{
   
   .active .modal {
     animation: modal .4s;
+    position: relative;
   }
   
   @keyframes modal {
@@ -1603,16 +1604,35 @@ button.collapsible{
   .btns {
     display: flex;
     justify-content: space-between;
+    justify-content: flex-end;
+    position: absolute;
+    right: 11px;
+    top: 31px;
 
   }
   
   .btns button {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    padding: 10px;
+    /* padding: 10px; */
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     color: white;
     cursor: pointer;
+    width: 2em;
+    height: 2em;
+    background-image: linear-gradient(92.83deg, #ee6464 0, #e12d08 100%);
+
+    filter: drop-shadow(3px 3px 3px #6f6d6db3);
+    
+    transition: all .3s ease;
+
+  }
+
+  .btns button:hover {
+transition: all .3s ease;
+background-image: linear-gradient(92.83deg, #e51818 0, #681403 100%);
+
   }
   
   .btnOK {
