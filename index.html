@@ -64,10 +64,10 @@
   </video>
   
       
-      <h1 class="hero__title">
+      <div class="hero__title">
      
         Seja bem-vindo! A Primeira Clínica Médica 100% Online do Brasil
-    </h1>
+    </div>
 
 
 
@@ -518,22 +518,75 @@
 
     
   </div>
-
-
   <div class="center_google">
 
-    <div class="card"><h3><span><img src="img/certificado.png"></span></h3>
+    <div class="card" onclick="openModal1()"><h3><span><img src="img/certificado.png"></span></h3>
+      
     <p>O <span class="txt_google">GOOGLE</span> certifica que Winners Time realizou com sucesso a atualização das informações de sua página no Google Maps e Waze, garantindo maior precisão, acessibilidade e visibilidade para seus clientes.</p>
     </div>
-    <div class="card"><h3><span><img src="img/crm.png"></span></h3>
+    <div class="card" onclick="openModal2()"><h3><span><img src="img/crm.png"></span></h3>
       <p>Na Winners Time, seguimos rigorosamente todas as diretrizes do Conselho Federal de Medicina <span class="txt_google">(CFM) </span>e dos Conselhos Regionais de Medicina <span class="txt_google">(CRMs)</span>, garantindo um atendimento ético, seguro e de alta qualidade na telemedicina.</p>
       </div>
-      <div class="card"><h3><span><img src="img/vigilancia.png"></span></h3>
+      <div class="card" onclick="openModal3()"><h3><span><img src="img/vigilancia.png"></span></h3>
         <p>A Winners Time tem a Licença de Vigilância Sanitária, garantindo que nossos serviços de telemedicina seguem todas as normas de segurança e qualidade exigidas pelos órgãos reguladores.</p>
         </div>
     
           
       </div>
+
+
+
+  <div class="modal-container1">
+    <div class="modal">
+   
+      <hr />
+      <span>
+      
+       <img src="img/certificado_g.jpg">
+      </span>
+      <hr />
+      <div class="btns">
+       
+        <button class="btnClose" onclick="closeModal1()">Close</button>
+      </div>
+    </div>
+    
+  </div>
+
+
+
+  <div class="modal-container2">
+    <div class="modal">
+     
+      <hr />
+      <span>
+       <img src="img/crm_g.png">
+      </span>
+      <hr />
+      <div class="btns">
+       
+        <button class="btnClose" onclick="closeModal2()">Close</button>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="modal-container3">
+    <div class="modal">
+     
+      <hr />
+      <span>
+       <img src="img/vigilancia_g.png">
+      </span>
+      <hr />
+      <div class="btns">
+       
+        <button class="btnClose" onclick="closeModal3()">Close</button>
+      </div>
+    </div>
+    
+  </div>
       
 
   <section>
