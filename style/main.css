@@ -1597,13 +1597,13 @@ button.collapsible{
   }
   
   span {
-    margin: 10px auto;
+    margin:auto;
   }
   
   .btns {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+
   }
   
   .btns button {
