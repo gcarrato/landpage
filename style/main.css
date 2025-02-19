@@ -93,9 +93,7 @@ li a .bt_menu img {
     background-color: #1badc2;
     border-radius: 50px;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 
 
@@ -103,9 +101,7 @@ li a .bt_menu img {
     background-color: #54cdc4;
     color: #ffffff;
     border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     filter: drop-shadow(3px 3px 4px #ccc);
 }
 
@@ -1425,8 +1421,9 @@ button.collapsible{
 
 .active,
 .collapsible:hover {
-    background-color: rgba(10, 11, 11, 0.56);
+    background-color: #e7eaec;
     transition: all .3s ease;
+   
 }
 
 .content_collapsible {
