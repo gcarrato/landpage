@@ -60,7 +60,8 @@
 
   <section class="hero">
     <video autoplay muted loop playsinline>
-      <source src="video/video4.mp4" type="video/mp4">
+      <source src="video/video3.mp4" type="video/mp4">
+      <img src="img/01.jpg" alt="Fallback Image">
   </video>
   
       
@@ -745,6 +746,24 @@
       });
     }
     </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      var video = document.getElementById("myVideo");
+      var fallbackImage = document.getElementById("fallbackImage");
+      
+      video.addEventListener("loadeddata", function () {
+          console.log("Vídeo carregado com sucesso!");
+      });
+      
+      video.addEventListener("error", function () {
+          console.error("Erro ao carregar o vídeo. Exibindo imagem alternativa.");
+          video.style.display = "none";
+          fallbackImage.style.display = "block";
+      });
+  });
+</script>
+
 
 </body>
 

@@ -443,7 +443,7 @@ li a .bt_menu img {
 }
 
 .content h3 {
-    font-size: 2.3em;
+    font-size: 1.5em;
     font-weight: 400;
     color: #fff;
     padding-left: 20px;
@@ -451,14 +451,14 @@ li a .bt_menu img {
 }
 
 .center h3 {
-    font-size: 2.3em;
+    font-size: 1.5em;
     font-weight: 400;
     color: #fff;
     padding-left: 20px;
 }
 
 .quote-slideshow h3 {
-    font-size: 2.4em;
+    font-size: 1.5em;
     font-weight: 400;
     color: #fff;
     padding-left: 0px;
@@ -1016,9 +1016,15 @@ img.star_dep {
         margin-top: 2.5em;
 
     }
-
+  
+    .center h3{
+        font-size: 2em;
+    }
+.content h3{
+    font-size: 2em;
+}
     .quote-slideshow h3 {
-        font-size: 2.4em;
+        font-size: 2em;
         font-weight: 400;
         color: #fff;
         padding-left: 20px;
@@ -1359,7 +1365,7 @@ a.bt_ver {
 
 .center_fac h3 {
 
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: 400;
     color: rgb(131, 129, 129);
     padding-left: 20px;
