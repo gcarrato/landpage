@@ -379,7 +379,7 @@ li a .bt_menu img {
 }
 
 .people-cards {
-    margin-top: 2em;
+   
 }
 
 .people-cards__card {
@@ -842,6 +842,10 @@ img.star_dep {
         background-size: contain;*/
     }
 
+    .people-cards {
+        margin-top: 2em;
+    }
+    
     .container_play {
         position: relative;
         width: 100%;
