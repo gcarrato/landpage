@@ -192,6 +192,7 @@ li a .bt_menu img {
     position: absolute;
     top: 50%;
     cursor: pointer;
+    display: none;
 }
 
 .js .laptop-slider .prev {
@@ -804,7 +805,7 @@ img.star_dep {
 /*RESPONSIVO */
 @media (orientation: landscape) {
     .hero {
-        height: 60vh;
+        height: 67vh;
     }
     .hero video {
         height: 70vh;
