@@ -40,8 +40,11 @@ p {
 .ptitle{
     font-size: 1.3em;
     filter: drop-shadow(3px 3px 3px #6f6d6db3);
-    padding: 1em;
+
     color: #ffffff;
+    padding-left: .5em;
+    padding-right: .5em;
+
 }
 
 .pcirurgia{
@@ -357,6 +360,8 @@ footer p {
 .titulo_destaque{
 
     margin-bottom: 1.5em;
+    position: relative;
+    top: -6vh;
 }
 
 
@@ -442,7 +447,7 @@ button.collapsible{
 .whatsapp-button {
     position: fixed;
     bottom: -72vh;
-  
+  z-index: 1000;
     right: 20px;
     background-color: #25D366;
     color: white;
