@@ -190,6 +190,7 @@ nav {
     white-space: nowrap;
     will-change: box-shadow,transform;
     font-size: 1em;
+    top:-40px;
   
 }
 
