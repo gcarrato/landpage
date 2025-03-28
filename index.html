@@ -3,57 +3,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WINNERS TIME</title>
-    <!-- Link para o CSS do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Link para seu arquivo CSS personalizado -->
-    <link rel="stylesheet" href="style/main.css">
+    <title>Landing Page Estética</title>
+    <link rel="stylesheet" href="carrosel.css">
+    <link rel="stylesheet" href="styles.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 </head>
 <body>
-  <div class="mrg">
-  <header class="container text-center my-5">
-    <img src="img/logo.png" alt="Logo da Empresa" class="img-fluid mb-3">
-    <h1>A primeira clínica médica 100% online do Brasil</h1>
-    <h3>DESCONTOS DE 85%, SEM MENSALIDADES SEM BUROCRACIA</h3>
    
-</header>
-
-<section class="container">
-  <div class="grid-container">
-      <div class="grid-item">
-          <h2>Consulta Online</h2>
-          <p>Atendimento médico de QUALIDADE E RESPONSABILIDADE, 100% regulamentadada no Brasil</p>
-      </div>
-      <div class="grid-item">
-          <h2>Laudos à Distância</h2>
-          <p>Emissão de laudos médicos com rapidez e segurança.</p>
-      </div>
-      <div class="grid-item">
-          <h2>Monitoramento Remoto</h2>
-          <p>Acompanhe sua saúde com dispositivos conectados e suporte contínuo.</p>
-      </div>
-  </div>
-</section>
-
-
-<section class="container text-center my-5 medica">
-  <h2>Agende sua consulta agora!</h2>
+    <!-- Menu -->
+    <header>
+       
+        <nav>
+            <div class="logo">
+                <div class="logo"><img src="img/logo.svg"></div>
+            </div>
+            
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+     
+        <a href="https://wa.me/SEU_NUMERO" class="whatsapp-button" target="_blank">
+           
+            <i class="fab fa-whatsapp"></i>
+            
+        </a>
+     
  
- <a class="btn" href="https://api.whatsapp.com/send?phone=5511965470010" >CLIQUE AQUI!</a>
-<h4>Ou acesse nosso site:</h4>
-<a href="https://www.winnerstime.com.br/" target="_blank" class="site">www.queroagendarminhaconsulta.com.br</a>
-</section>
+    </header>
 
-<footer class="container text-center my-5">
-  <p>&copy; Diretora clínica responsável:
-    Dra. Daniela Fontes da Silva Salgado CRMSP: n.º 1030497
-    Licença Sanitária: CMVS n.º 355030801-863-072553-1-4</p>
-  <p>
-      <a href="https://www.facebook.com/profile.php?id=61563748760838" target="_blank">Facebook</a> |
-      <a href="https://www.instagram.com/winnerstimeclinica/" target="_blank">Instagram</a> |
-      <a href="https://www.linkedin.com/in/winners-time-61bb10320/" target="_blank">LinkedIn</a>
-  </p>
+    <!-- Seção Home (Carrossel) -->
+    <section id="home" class="hero">
+        
+        <div class="hero-content">
+           <div class="titulo_destaque"><h1>Cirurgia Plástica Avançada</h1>
+            <p class="ptitle"> Onde a precisão médica encontra a perfeição estética.</p>
+        </div> 
+            <a href="#servicos" class="cta-button">AGENDAR AVALIAÇÃO</a>
+        </div>
+        <div class="carousel">
+            <img src="img/img1.jpg" alt="Imagem 1">
+            <img src="img/img2.jpg" alt="Imagem 2">
+            <img src="img/img3.jpg" alt="Imagem 3">
+        </div>
+    </section>
+ <!-- Seção Sobre -->
+
+ <section class="section_sobre">
+ <section id="sobre" class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Na Winners Time, o Dr. Marcos Storion une técnica cirúrgica de ponta, tecnologia avançada e um olhar artístico refinado para transformar sonhos em realidade. Com excelência reconhecida, 
+        proporcionamos um atendimento premium e resultados de alto padrão em Cirurgia Plástica, sempre com dedicação e inovação para elevar a autoestima e o bem-estar dos nossos pacientes.</p>
+    </section>
+</section>
+    <!-- Botão Agendar Consulta -->
+    <section class="agendar">
+        <div class="agendar-content">
+           <h1>Conheça nossos resultados</h1>
+
+         
+           <section>
+            <div id="cCarousel">
+              <div class="arrow" id="prev"><i class="fas fa-angle-left fa-2x"></i></div>
+              <div class="arrow" id="next"><i class="fas fa-angle-right fa-2x"></i></div>
+          
+              <div id="carousel-vp">
+                <div id="cCarousel-inner" style="left: -1056px;">
+        
+                  <article class="cCarousel-item">
+                  
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+        
+                   <article class="cCarousel-item">
+                  
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+          
+                   <article class="cCarousel-item">
+                  
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+          
+                  <article class="cCarousel-item">
+                   
+                   <img src="img/conheca_01.jpg">
+                   
+                  </article>
+        
+                 
+                  <article class="cCarousel-item">
+                 
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+        
+                   <article class="cCarousel-item">
+                  
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+          
+                   <article class="cCarousel-item">
+                   
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+          
+                  <article class="cCarousel-item">
+                   
+                   <img src="img/conheca_01.jpg">
+                   
+                  </article>
+                  <article class="cCarousel-item">
+                   
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+        
+                   <article class="cCarousel-item">
+                  
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+          
+                   <article class="cCarousel-item">
+                   
+                  <img src="img/conheca_01.jpg">
+                  
+                   </article>
+          
+                  <article class="cCarousel-item">
+                  
+                   <img src="img/conheca_01.jpg">
+                   
+                  </article>
+                  
+        
+                </div>
+              </div>
+            </div>
+          </section>
+                 
+          
+   
+     
+           
+        </div>
+    </section>
+    
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="img/img1.jpg" alt="Serviço 1">
+                <h3>Tratamento Facial</h3>
+                <p>Cuidados para uma pele radiante e saudável.</p>
+            </div>
+            <div class="card">
+                <img src="img/img1.jpg" alt="Serviço 2">
+                <h3>Depilação</h3>
+                <p>Depilação de alta qualidade e sem dor.</p>
+            </div>
+            <div class="card">
+                <img src="img/img1.jpg" alt="Serviço 3">
+                <h3>Massagens Relaxantes</h3>
+                <p>Revitalize seu corpo com massagens terapêuticas.</p>
+            </div>
+        </div>
+    </section>
+
+   
+
+       <!-- Dúvidas frequentes-->
+
+       <div class="center_fac">
+
+
+        <h3>
+         
+       Dúvidas frequentes <span><img src="img/duvida.svg"></span>
+        </h3>
+    
+    
+        <button type="button" class="collapsible">O que significa telemedicina?<span><img src="img/seta.svg"></span></button>
+        <div class="content_collapsible">
+          <p> telemedicina é uma forma de oferecer serviços médicos a distância através de clinica medica  digital, permitindo consultas, diagnósticos e recomendações médicas por meio de videoconferência, procure sempre uma clinica regulamentada pelos órgãos fiscalizadores, a sua segurança está acima de tudo.</p>
+        </div>
+    
+        <button type="button" class="collapsible">Como as teleconsultas funcionam?<span><img src="img/seta.svg"></span></button>
+        <div class="content_collapsible">
+          <p>As teleconsultas são realizadas através de uma Clinica médica online segura regulamentada, na qual o paciente e o médico se conectam em tempo real para uma consulta médica, com conforto e segurança respaldado pelos órgãos fiscalizadores.</p>
+        </div>
+        <button type="button" class="collapsible">Fazer uma consulta online é seguro?<span><img src="img/seta.svg"></span></button>
+        <div class="content_collapsible">
+          <p>Sim, a nossa Clinica medica é regularizada junto ao concelho regional de medicina e a vigilância sanitária, utiliza medidas avançadas de segurança para garantir a privacidade e confidencialidade das informações dos pacientes. Além disso, todos os médicos são licenciados e capacitados para oferecer consultas a distância.</p>
+        </div>
+        <button type="button" class="collapsible">É necessário algum equipamento especial para realizar a teleconsulta?<span><img src="img/seta.svg"></span></button>
+        <div class="content_collapsible">
+          <p>Não é necessário nenhum equipamento especial. A maioria dos smartphones, tablets ou computadores com câmera e microfone são adequados. É importante ter uma conexão estável com a internet, assim como um ambiente com boa iluminação e privacidade.</p>
+        </div>
+        <button type="button" class="collapsible">É possível receber receitas médicas por meio da teleconsulta?<span><img src="img/seta.svg"></span></button>
+        <div class="content_collapsible">
+          <p>Sim, se o Médico considerar necessário, ele pode emitir receitas, pedidos de exames, atestados e declarações. Os medicamentos de notificação de receita A, B, C2 e C3 por determinação da ANVISA não podem ser emitidos digitalmente.</p>
+        </div>
+        <button type="button" class="collapsible">O Conselho Federal de Medicina reconhece a telemedicina?<span><img src="img/seta.svg"></span></button>
+        <div class="content_collapsible">
+          <p>Sim, a telemedicina é reconhecida e regulamentada pelo Conselho Federal de Medicina, através da Resolução CFM nº 2.314/2022 e pela Lei da telessaúde Nº 14.510, garantindo que as consultas a distância sejam tão válidas quanto as presenciais. É importante e necessário que o paciente sempre busque uma clinica regulamentada pelos órgãos fiscalizadores e competentes, desta forma o paciente terá a garantia de sua segurança, respaldado por profissionais qualificados para exercer está atividade!</p>
+        </div>
+    
+        <button type="button" class="collapsible">A telemedicina pode ser utilizada para qualquer tipo de consulta?<span><img src="img/seta.svg"></span></button>
+        <div class="content_collapsible">
+          <p>A telemedicina é eficaz para muitas consultas, mas existem situações que podem exigir uma avaliação presencial, especialmente casos de urgência e emergências ou sempre que o seu Médico achar necessário.</p>
+        </div>
+    
+      </div>
+
+        <!-- fim-->
+
+    <!-- Grid de Fotos abaixo de Sobre Nós -->
+    <section class="fotos-grid">
+        <div class="grid-container">
+            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 1"></div>
+            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 2"></div>
+            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 3"></div>
+            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 4"></div>
+            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 5"></div>
+            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 6"></div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações ou agendar um atendimento.</p>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+ <!-- Rodapé fixo -->
+ <footer class="footer">
+    <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <p>&copy; 2025 Estética - Todos os direitos reservados</p>
 </footer>
-</div>
+    <script src="script.js"></script>
+    <script src="carousel.js"></script>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 </html>
