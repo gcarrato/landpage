@@ -5,7 +5,7 @@
     width: 19em;
 }
 
-h2,  h5, h6 {
+ h5, h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #7d7d7d;
@@ -43,7 +43,7 @@ h2{
     color: #ffffff;
     font-weight: 600;
     line-height: 1.1;
-    margin-bottom: .6em;
+    margin-bottom: .2em;
 
 }
 
@@ -121,11 +121,11 @@ nav {
 
 .menu li {
     margin: 0 15px;
-    
+    padding: .5em;
 }
 
 .menu a {
-    color:#7b6143;
+    color:#ffffff;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -230,7 +230,10 @@ nav {
     background-color: #dec9ba36;
  
 }
+.agendar p{
 
+margin-bottom: 1em;
+}
 .whatsapp-button {
     background-color: #25D366;
     color: white;
@@ -275,6 +278,10 @@ nav {
     margin: auto;
     text-align: left;
    
+}
+.ico_sobre img{
+
+width: 2em;
 }
 
 .tec{
@@ -379,6 +386,7 @@ form button {
         right: 0;
         background-color: #333;
         padding: 10px 0;
+     
     }
 .tec {
     flex-wrap: wrap;
@@ -388,6 +396,7 @@ form button {
        
         width: 50%;
         align-items: flex-end;
+   
     }
 
     .hamburger {
@@ -514,9 +523,10 @@ button.collapsible{
 
 .active,
 .collapsible:hover {
-    background-color: #e7eaec;
+    background-color: #e9b782bb;
     transition: all .3s ease;
-    filter: drop-shadow(2px 2px 1px #ccc);
+   
+   
    
 }
 
