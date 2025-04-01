@@ -2,22 +2,28 @@
 
 .logo{
 
-    width: 9em;
+    width: 19em;
 }
 
-h2, h4, h5, h6 {
+h2,  h5, h6 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     color: #7d7d7d;
     font-size: 2em;
 }
 
 h3{
-    font-size: 1.5em;
-
     font-family: 'Poppins', sans-serif;
-    color: #7d7d7d;
-    font-weight: 600;
+    font-weight: 400;
+    color: #de8704;
+    font-size: 2em;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #de8704;
+    font-size: 1.4em;
 }
 
 h1{
@@ -26,7 +32,21 @@ h1{
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-weight: 600;
+    line-height: 1.1;
 }
+
+
+h2{
+    font-size: 2.5em;
+    filter: drop-shadow(3px 3px 3px #6f6d6db3);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: .6em;
+
+}
+
  a, button {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -81,8 +101,8 @@ header {
     filter: drop-shadow(3px 3px 3px #6f6d6db3);
 
 
-      
-        background: linear-gradient(to right, #dbad8e, #fbc596, #ffc04c);
+    background: linear-gradient(to right, #e9dfd8, #fbc596, #e0b179);
+
  
 
 }
@@ -105,7 +125,7 @@ nav {
 }
 
 .menu a {
-    color: white;
+    color:#7b6143;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -121,7 +141,7 @@ nav {
     width: 30px;
     height: 4px;
     background-color: white;
-    margin: 5px 0;
+    margin: 3px 0;
 }
 
 .hero {
@@ -191,7 +211,15 @@ nav {
     will-change: box-shadow,transform;
     font-size: 1em;
     top:-40px;
+    transform: scale(1);
+    transition: all ease .3s;
   
+}
+
+.cta-button:hover {
+    background-image: radial-gradient(100% 100% at 100% 0,#f0c6aa 0, #dd874f , #f2d1bb 100%);
+   transform: scale(1.1);
+   transition: all ease .3s;
 }
 
 .agendar {
@@ -223,6 +251,7 @@ nav {
     justify-content: space-around;
     margin-top: 30px;
     filter: drop-shadow(3px 3px 3px #6f6d6db3);
+    gap: 1em;
 }
 
 .card {
@@ -231,7 +260,7 @@ nav {
     border-radius: 8px;
     width: 100%;
     text-align: center;
-    margin: 1em;
+
 }
 
 .card img {
@@ -244,7 +273,20 @@ nav {
     text-align: center;
     max-width: 870px;
     margin: auto;
+    text-align: left;
    
+}
+
+.tec{
+display: flex;
+margin-top: 3em;
+gap: 1.4em;
+
+
+}
+.tec div{
+
+
 }
 .section_sobre{
 
@@ -253,15 +295,45 @@ nav {
     object-fit: cover;
     height: 100%;
 }
-.fotos-grid {
+
+.bg_section_tec{
+    background-image: url("img/bg_sobre.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+
+}
+.section_tec {
     padding: 50px 20px;
+    text-align: center;
+    max-width: 1020px;
+    margin: auto;
+    text-align: center;
+
+
+   
+}
+.icone_tec img{
+width:5em;
+
+}
+
+.fotos-grid {
+    padding: 50px 20px 70px;
     background-color: #ffffff;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 70px;
+}
+
+.grid-container p{
+    display: block;
+    padding: 1em;
+    text-align: center;
+   
 }
 
 .grid-item img {
@@ -294,19 +366,28 @@ form button {
 }
 
 @media (max-width: 768px) {
+    h1{
+
+        font-size: 2.2em;
+    }
     .menu {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
-        left: 0;
+        top: 90px;
+       
         right: 0;
         background-color: #333;
         padding: 10px 0;
     }
-
+.tec {
+    flex-wrap: wrap;
+}
     .menu.active {
         display: flex;
+       
+        width: 50%;
+        align-items: flex-end;
     }
 
     .hamburger {
@@ -318,7 +399,7 @@ form button {
     }
 
     .grid-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: none;
     }
 }
 
@@ -331,9 +412,10 @@ footer {
     color: white;
     padding: 10px 0;
     text-align: center;
-    z-index: 100;
-    filter: drop-shadow(3px 3px 3px #6f6d6db3);
-    background: linear-gradient(to right, #fbc596,  #dbad8e , #ffc04c);
+
+    filter: drop-shadow(3px 3px -3px #6f6d6db3);
+    background: linear-gradient(to right, #e9dfd8, #fbc596, #e0b179);
+
 
 
 }
@@ -347,6 +429,7 @@ footer {
     font-size: 30px;
     margin: 0 15px;
     text-decoration: none;
+    filter: drop-shadow(3px 3px 3px #6f6d6db3);
 }
 
 .social-icon:hover {
@@ -371,9 +454,7 @@ footer p {
 
 .center_fac h3 {
 
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: #7d7d7d;
+  
     padding-left: 20px;
 }
 .center_fac h3 span img{
@@ -435,6 +516,7 @@ button.collapsible{
 .collapsible:hover {
     background-color: #e7eaec;
     transition: all .3s ease;
+    filter: drop-shadow(2px 2px 1px #ccc);
    
 }
 
