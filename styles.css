@@ -310,11 +310,14 @@ gap: 1.4em;
 }
 
 .auto {
-    padding: 50px 20px;
+    padding-bottom: 1em;
+    padding-top: 1em;
     text-align: center;
     max-width: 870px;
     margin: auto;
     text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
    
 }
 
@@ -448,6 +451,8 @@ color: #de8704;
 }
 
 @media (max-width: 1640px) {
+
+    
 .bg_auto{
 
     background-color: #ffffffb5;
@@ -479,6 +484,11 @@ color: #de8704;
 }
 
 @media (max-width: 768px) {
+
+.whatsapp-button {
+
+        bottom:-62vh;
+            }
     h1{
 
         font-size: 2.2em;
