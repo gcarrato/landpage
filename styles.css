@@ -22,11 +22,19 @@ h3{
 h4{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #de8704;
+    color: #8f5804;
     font-size: 1.2em;
     text-align: center;
 }
+.servicos h4{
 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:#8f5804;
+    font-size: 1.2em;
+    text-align: center;
+
+}
 h1{
     font-size: 3em;
     filter: drop-shadow(3px 3px 3px #6f6d6db3);
@@ -420,6 +428,7 @@ color: #de8704;
   max-width: 400px;
   color: #de8804;
   filter: none;
+  padding-bottom: 1em;
   
  
     }
@@ -449,17 +458,21 @@ color: #de8704;
 }
 .section_fim h3{
 
-padding-bottom: .5em;
-text-align: left;
-padding: .5em;
+    text-align: center;
+    padding: .5em;
+    padding-bottom: .5em;
+    padding-top: 1em;
+    color: #fff;
+    filter: drop-shadow(3px 3px 3px #6f6d6db3);
 }
+
 .conteudo_fim{
 
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    height: 707px;
 
 }
 
