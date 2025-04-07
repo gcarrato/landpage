@@ -411,6 +411,8 @@ form button {
     object-fit: cover;
     height: 100%;
     height: 600px;
+    padding-left: .5em;
+    padding-right: .5em;
 
 }
 .section_fim p{
@@ -453,9 +455,51 @@ color: #de8704;
   max-width: 400px;
 }
 
+
+/* depoimento */
+
+.dep{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    /* gap: 10px; */
+    margin-top: 3em;
+    gap: 1.4em;
+    column-gap: 2em;
+    row-gap: 5em;
+    margin-bottom: 4em;
+    
+    }
+
+
+ 
+.bg_section_dep{
+    background-image: url("img/bg_dep.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+
+}
+.section_dep {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 1020px;
+    margin: auto;
+    text-align: center;
+
+
+   
+}
+
+.icone_dep img{
+    width:5em;
+    
+    }
+
+
 @media (max-width: 1640px) {
 
-    
+
 .bg_auto{
 
     background-color: #ffffffb5;
@@ -488,6 +532,10 @@ color: #de8704;
 }
 
 @media (max-width: 768px) {
+    .dep {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 .whatsapp-button {
 
@@ -519,6 +567,9 @@ color: #de8704;
         align-items: flex-end;
    
     }
+
+   
+
 
     .hamburger {
         display: flex;
@@ -698,3 +749,4 @@ button.collapsible{
     justify-content: center;
     font-size: 16px;
 }
+
