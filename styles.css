@@ -295,7 +295,10 @@ margin-bottom: 1em;
 
 width: 2em;
 }
+.ico_inf img{
 
+    width: 5em;
+    }
 .tec{
 display: flex;
 margin-top: 3em;
@@ -458,26 +461,43 @@ color: #de8704;
 
 /* depoimento */
 
-.dep{
+.dep {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 252px);
     /* gap: 10px; */
     margin-top: 3em;
     gap: 1.4em;
     column-gap: 2em;
-    row-gap: 5em;
-    margin-bottom: 4em;
+    row-gap: 1em;
     
     }
 
+    .dep p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: ₢;
+        /* background-color: #ffffff70; */
+        /* border-radius: 20px; */
+        padding: .4em;
+        border-bottom: 1px solid #de8804;
+    }
+    .dep h4{
 
- 
+        padding: .3em;
+    }
+
+    .dep h4 img{
+
+width: 5em;
+    }
 .bg_section_dep{
     background-image: url("img/bg_dep.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     height: 100%;
+    background-position-y: center;
+    background-position-x:center;
 
 }
 .section_dep {
@@ -492,8 +512,12 @@ color: #de8704;
 }
 
 .icone_dep img{
-    width:5em;
-    
+    width: 5em;
+    border-radius: 50%;
+    border: 2px solid #de8804;
+    object-fit: cover;
+    padding: 0px;
+    margin: 0px;
     }
 
 
@@ -535,6 +559,12 @@ color: #de8704;
     .dep {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 252px);
+        /* gap: 10px; */
+        margin-top: 3em;
+        gap: 1.4em;
+        column-gap: 2em;
+        row-gap: 3em;
     }
 
 .whatsapp-button {
