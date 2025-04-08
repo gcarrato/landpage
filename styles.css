@@ -19,6 +19,7 @@ h3{
     color: #de8704;
     font-size: 2em;
     line-height: 1.1;
+    margin-bottom: .5em;
 }
 
 h4{
@@ -297,7 +298,7 @@ width: 2em;
 }
 .ico_inf img{
 
-    width: 5em;
+    width: 3em;
     }
 .tec{
 display: flex;
@@ -485,6 +486,10 @@ color: #de8704;
     .dep h4{
 
         padding: .3em;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
     }
 
     .dep h4 img{
@@ -564,7 +569,7 @@ width: 5em;
         margin-top: 3em;
         gap: 1.4em;
         column-gap: 2em;
-        row-gap: 3em;
+        row-gap: 5em;
     }
 
 .whatsapp-button {
