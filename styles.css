@@ -619,39 +619,36 @@ width: 5em;
         grid-template-columns: none;
     }
 
-
-    .secao-principal {
-        flex-direction: column;
-        align-items: center;
-      }
-    
-      .carrossel-container {
-        max-width: 100%;
-        padding: 15px;
+    .carrossel-container {
+        flex: 1 1 100%;
+        padding: 10px;
       }
     
       .carrossel-wrapper {
         max-width: 100%;
       }
     
-      .item-video video {
+      .item-video iframe {
         width: 100%;
         height: auto;
+        aspect-ratio: 16 / 9;
       }
     
       .botao-carrossel {
         width: 40px;
         height: 40px;
-        font-size: 20px;
+        font-size: 18px;
       }
     
       .botao-carrossel.anterior {
-        left: 8px;
-    }
+        left: 5px !important;
+      }
     
       .botao-carrossel.proximo {
-        right: 8px;
+        right: 5px;
       }
+    
+   
 }
 
 footer {
@@ -830,17 +827,43 @@ button.collapsible{
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+background-color: #dec9ba36;
+padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .secao-principal p{
+    max-width: 780px;
+    text-align: center;
+    margin: auto;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+  }
+  .centra_title{
+   width: 100%;
+   margin: auto;
+   text-align: center;
 
 
   }
-  
+  .secao-principal h2{
+    margin-bottom: .5em;
+    text-align: center;
+  }
+
+  .secao-principal h3{
+   
+    text-align: center;
+  }
   .carrossel-container {
     flex: 1 1 450px;
     max-width: 500px;
-   
     padding: 20px;
     border-radius: 12px;
 
+    border-radius: 20px;
+    border: 1px solid #8f5804;
   }
   
   .carrossel-container h2 {
@@ -848,13 +871,13 @@ button.collapsible{
     margin-bottom: 15px;
   }
   
-
   .carrossel-wrapper {
     position: relative;
     overflow: hidden;
     max-width: 848px;
     margin: 0 auto;
   }
+  
   .faixa-carrossel {
     display: flex;
     transition: transform 0.4s ease-in-out;
@@ -862,18 +885,18 @@ button.collapsible{
   }
   
   .item-video {
-    flex: 0 0 100%;
+ 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
   }
   
-  .item-video video {
+  /* Aqui é onde trocamos <video> por <iframe> */
+  .item-video iframe {
     width: 848px;
     height: 480px;
     max-width: 100%;
- 
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
   
@@ -884,7 +907,7 @@ button.collapsible{
     width: 48px;
     height: 48px;
     font-size: 24px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(222 136 4);
     color: white;
     border: none;
     cursor: pointer;
@@ -897,10 +920,12 @@ button.collapsible{
   }
   
   .botao-carrossel.anterior {
-    left: 38px; /* ou 0 para ficar dentro do vídeo */
+    left: 0px;
   }
   
   .botao-carrossel.proximo {
     right: 1px;
   }
+
+  
   
