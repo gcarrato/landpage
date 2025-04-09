@@ -1,14 +1,13 @@
-let players = []; // lista com todos os players do site
+let players = [];
 
-// Função chamada automaticamente pela API do YouTube
 function onYouTubeIframeAPIReady() {
-  document.querySelectorAll('.item-video iframe').forEach((iframe, index) => {
-    const carrosselWrapper = iframe.closest('.carrossel-wrapper');
-    const carrosselId = carrosselWrapper.dataset.id;
+  document.querySelectorAll('.item-video iframe').forEach((iframe) => {
+    const wrapper = iframe.closest('.carrossel-wrapper');
+    const carrosselId = wrapper.dataset.id;
 
     const player = new YT.Player(iframe, {
       events: {
-        'onStateChange': event => {
+        'onStateChange': (event) => {
           if (event.data === YT.PlayerState.PLAYING) {
             pausarVideosDeOutrosCarrosseis(player, carrosselId);
           }
@@ -16,14 +15,12 @@ function onYouTubeIframeAPIReady() {
       }
     });
 
-    // Salva player e a qual carrossel ele pertence
     players.push({ player, carrosselId });
   });
 
-  iniciarCarrosseis(); // Inicializa os botões
+  iniciarCarrosseis();
 }
 
-// Inicializa carrosséis
 function iniciarCarrosseis() {
   document.querySelectorAll('.carrossel-wrapper').forEach(wrapper => {
     const faixa = wrapper.querySelector('.faixa-carrossel');
@@ -33,21 +30,27 @@ function iniciarCarrosseis() {
     const total = items.length;
     let indice = 0;
 
-    btnProximo.addEventListener('click', () => {
-      indice = (indice + 1) % total;
+    const atualizarPosicao = () => {
       faixa.style.transform = `translateX(-${indice * 100}%)`;
       pausarTodosVideos();
+    };
+
+    btnProximo.addEventListener('click', () => {
+      if (indice < total - 1) {
+        indice++;
+        atualizarPosicao();
+      }
     });
 
     btnAnterior.addEventListener('click', () => {
-      indice = (indice - 1 + total) % total;
-      faixa.style.transform = `translateX(-${indice * 100}%)`;
-      pausarTodosVideos();
+      if (indice > 0) {
+        indice--;
+        atualizarPosicao();
+      }
     });
   });
 }
 
-// Pausa todos os players, ou todos menos o ativo
 function pausarTodosVideos(videoAtivo = null) {
   players.forEach(({ player }) => {
     if (player !== videoAtivo) {
@@ -56,7 +59,6 @@ function pausarTodosVideos(videoAtivo = null) {
   });
 }
 
-// Pausa apenas os vídeos de carrosséis diferentes
 function pausarVideosDeOutrosCarrosseis(videoAtivo, carrosselAtual) {
   players.forEach(({ player, carrosselId }) => {
     if (player !== videoAtivo && carrosselId !== carrosselAtual) {
