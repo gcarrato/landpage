@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Estética</title>
+    <title>AUTOESTIMA</title>
     <link rel="stylesheet" href="carrosel.css">
     <link rel="stylesheet" href="styles.css">
   <script src="https://www.youtube.com/iframe_api"></script>
@@ -26,9 +26,16 @@
             
             <ul class="menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#resultados">Resultados</a></li>
+                <li><a href="#autoestima">Autoestima</a></li>
+                <li><a href="#plasticafacial">Cirurgia Facial</a></li>
+                <li><a href="#plasticacorporal">Cirurgia Corporal</a></li>
+                <li><a href="#duvidas">Dúvidas frequentes</a></li>
+                <li><a href="#empresa">Autoestima</a></li>
+                <li><a href="#inovacao">Inovação</a></li>
+                <li><a href="#estrutura">Estrutura</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
             </ul>
             <div class="hamburger" onclick="toggleMenu()">
                 <div class="bar"></div>
@@ -57,21 +64,21 @@
             <img src="img/img3.jpg" alt="Imagem 3">
         </div>
     </section>
- <!-- Seção Sobre -->
+ <!-- Sobre Nós -->
 
- <section class="section_sobre">
- <section id="sobre" class="sobre">
-    <h3>Sobre Nós<span class="ico_sobre"><img src="img/ico_sobre.svg"></span></h3>
+ <section class="section_sobre" >
+ <section class="sobre">
+    <h3 id="sobre">Sobre Nós<span class="ico_sobre"><img src="img/ico_sobre.svg"></span></h3>
     <p>Na Winners Time, o Dr. Marcos Storion une técnica cirúrgica de ponta, tecnologia avançada e um olhar artístico refinado para transformar sonhos em realidade. </p>
     
     <p>Com excelência reconhecida, 
         proporcionamos um atendimento premium e resultados de alto padrão em Cirurgia Plástica, sempre com dedicação e inovação para elevar a autoestima e o bem-estar dos nossos pacientes.</p>
     </section>
 </section>
-    <!-- Botão Agendar Consulta -->
+    <!-- Resultados -->
     <section class="agendar">
         <div class="agendar-content">
-           <h2>Conheça nossos resultados</h2>
+           <h2 id="resultados">Conheça nossos resultados</h2>
 <p>Um novo olhar para a beleza que é só sua</p>
          
            <section>
@@ -140,11 +147,11 @@
             </div>
           </section>
                  
-           <!-- Auto estime -->   
+           <!-- Autoestima -->   
            <section class="section_auto">
             <section id="auto" class="auto">
               <div class="bg_auto">
-               <h3> Autoestima: O Primeiro Passo Para Se Sentir Bem! </h3>
+               <h3 id="autoestima"> Autoestima: O Primeiro Passo Para Se Sentir Bem! </h3>
                <p>A autoestima vai muito além da aparência — é sobre como você se sente consigo mesmo(a). Quando estamos bem, refletimos mais segurança, felicidade e qualidade de vida.
 
                 <p>Na AUTO ESTIMA, nossa missão é realçar a sua beleza com naturalidade e segurança, através de procedimentos personalizados 
@@ -158,9 +165,9 @@
     </section>
     
 
-    <!-- Seção Serviços -->
-    <section id="servicos" class="servicos">
-        <h3>Nossos Serviços</h3>
+    <!-- Cirurgia Plástica Facial-->
+    <section class="servicos">
+        <h3 id="plasticafacial">Cirurgia Plástica Facial</h3>
         <div class="cards">
             <div class="card">
                 <img src="img/tratamento_facial.png" alt="Serviço 1">
@@ -181,16 +188,42 @@
     </section>
 
    
-
+ <!-- CIRURGIA PLÁSTICA CORPORAL -->
+ <section class="fotos-grid">
+  <h3 id="plasticacorporal">Cirurgia Plástica Corporal</h3>
+    <div class="grid-container">
+        <div class="grid-item"><img src="img/img1.jpg" alt="Foto 1">
+          <h4>Deep Plane FaceLift</h4>
+          <p>A excelência e os resultados </p>
+        </div>
+        <div class="grid-item"><img src="img/img1.jpg" alt="Foto 2">
+          <h4>Neck Lift</h4>
+          <p>A excelência e os resultados </p>
+        </div>
+        <div class="grid-item"><img src="img/img1.jpg" alt="Foto 3">
+          <h4>FaceLift</h4>
+          <p>A excelência e os resultados </p>
+        </div>
+        <div class="grid-item"><img src="img/img1.jpg" alt="Foto 4">
+          <h4>Blefaroplastia</h4>
+          <p>A excelência e os resultados </p>
+        </div>
+        <div class="grid-item"><img src="img/img1.jpg" alt="Foto 5">
+          <h4>Rinoplastia</h4>
+          <p>A excelência e os resultados </p>
+        </div>
+        <div class="grid-item"><img src="img/img1.jpg" alt="Foto 6">
+          <h4>Otoplastiat</h4>
+          <p>A excelência e os resultados </p>
+        </div>
+    </div>
+</section>
        <!-- Dúvidas frequentes-->
 
        <div class="center_fac">
 
 
-        <h3>
-         
-       Dúvidas frequentes <span><img src="img/duvida.svg"></span>
-        </h3>
+        <h3 id="duvidas">Dúvidas frequentes <span><img src="img/duvida.svg"></span> </h3>
     
     
         <button type="button" class="collapsible">Quais são os procedimentos oferecidos pelo Dr. Marcos Storion?
@@ -228,25 +261,82 @@
       </div>
   <!-- 360-->
    <section class="tour">
-    <h2 class="titulo">Tour Virtual - Instalações</h2>
+    <h2 id="empresa" class="titulo">AUTOESTIMA</h2>
 
     <div class="galeria-360-scroll">
       <div class="galeria-360-item">
-        <iframe src="https://www.google.com/maps/embed?pb=!4vXXXXXXXXXX!6m8!1m7!1sCAoSLEFGMVFpcE1rWnVxZzEtUWhxVnNDSXJjVWxqak5NcEFnU2Y5Sm8zT05ONjBS!2m2!1d-23.000000!2d-46.000000!3f0!4f0!5f0.7820865974627469" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1731507600766!6m8!1m7!1sCAoSLEFGMVFpcFAtRnoxQTVLLVREUE8wY0kweGFmOGpUNXZ5d0FkZlpraDdJVlhZ!2m2!1d-23.51636832756046!2d-46.54546032814802!3f160!4f0!5f0.7820865974627469"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="galeria-360-item">
-        <iframe src="https://www.google.com/maps/embed?pb=!4vYYYYYYYYYY!6m8!1m7!1sCAoSLEFGMVFpcFBvUkE0N2RZam9VR0hFaHFRRjFZYkFXcGllMklFSW5kUXRQ!2m2!1d-23.123456!2d-46.654321!3f0!4f0!5f0.7820865974627469" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1745412074517!6m8!1m7!1sCAoSHENJQUJJaEFEeWNLekJTUUxER2ZrWHlBQUFyLTQ.!2m2!1d-23.51636832756046!2d-46.54546032814802!3f320!4f0!5f0.7820865974627469"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <!-- Adicione mais iframes conforme necessário -->
+
+      <div class="galeria-360-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1745412161743!6m8!1m7!1sCAoSHENJQUJJaEFEeWRFUkJEZ2RIR2ZrWHRNQUJTeC0.!2m2!1d-23.51636832756046!2d-46.54546032814802!3f0!4f0!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+
+      <div class="galeria-360-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1745412202782!6m8!1m7!1sCAoSHENJQUJJaEFEeWNLekJTUUxER2ZrWHlBQUFRN0k.!2m2!1d-23.51636832756046!2d-46.54546032814802!3f324.5247126146436!4f-1.901827592465807!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+
+      <div class="galeria-360-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1745412255068!6m8!1m7!1sCAoSHENJQUJJaEFEeWNLekJTUUxER2ZrWHRNQUNZd1U.!2m2!1d-23.51636832756046!2d-46.54546032814802!3f160!4f10!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
     </div>
 
 </section>
     <!-- fim-->
-
-  <!-- hospitais-->
+   
+ <!-- Inovação -->
+ <section class="bg_section_tec">
+  <section class="section_tec">
+ 
+      <h3 id="inovacao">Cirurgia Plástica com inovação <br>e cuidado humanizado.</h3>
+ 
+ 
+    <div class="tec">
+ <div>
+  <span class="icone_tec"><img src="img/icone.svg"></span> 
+  <h4>Referência Nacional</h4>
+  <p>A excelência e os resultados do Dr. Marcos Storion são amplamente reconhecidos</p>
+ 
+ </div>
+ 
+ <div>
+   <span class="icone_tec"><img src="img/icone.svg"></span> 
+   <h4>Referência Nacional</h4>
+   <p>A excelência e os resultados do Dr. Marcos Storion são amplamente reconhecidos</p>
+  
+  </div>
+ 
+  <div>
+   <span class="icone_tec"><img src="img/icone.svg"></span> 
+   <h4>Referência Nacional</h4>
+   <p>A excelência e os resultados do Dr. Marcos Storion são amplamente reconhecidos</p>
+  
+  </div>
+ 
+  <div>
+   <span class="icone_tec"><img src="img/icone.svg"></span> 
+   <h4>Referência Nacional</h4>
+   <p>A excelência e os resultados do Dr. Marcos Storion são amplamente reconhecidos</p>
+  
+  </div>
+ 
+ 
+    </div>
+     
+  </section>
+ </section>
+  <!-- fim -->
+  <!-- estrutura-->
 <section class="estrutura">
   <div class="estru">
-  <h2>Estrutura Segura e Profissional</h2>
+  <h2 id="estrutura">Estrutura Segura e Profissional</h2>
   <p>As cirurgias realizadas pelos profissionais credenciados da Autoestima acontecem em hospitais parceiros como o Hospital Ibirapuera
      e o Hospital Unity, ambos regulamentados pela Covisa, com alvará de funcionamento e responsáveis técnicos qualificados. </p><p>Toda a estrutura 
      é cuidadosamente selecionada para garantir máxima segurança, priorizando sempre a saúde e a vida dos nossos pacientes.</p>
@@ -287,7 +377,7 @@
         <section class="bg_section_dep">
           <section class="section_dep">
          
-              <h3>Depoimentos<span class="ico_inf"><img src="img/infinito.svg"></span></h3>
+              <h3 id="depoimentos">Depoimentos<span class="ico_inf"><img src="img/infinito.svg"></span></h3>
          
          
             <div class="dep">
@@ -336,77 +426,8 @@
              
           </section>
          </section>
-    <!-- Grid de Fotos abaixo de Sobre Nós -->
-    <section class="fotos-grid">
-        <div class="grid-container">
-            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 1">
-              <h4>Deep Plane FaceLift</h4>
-              <p>A excelência e os resultados </p>
-            </div>
-            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 2">
-              <h4>Neck Lift</h4>
-              <p>A excelência e os resultados </p>
-            </div>
-            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 3">
-              <h4>FaceLift</h4>
-              <p>A excelência e os resultados </p>
-            </div>
-            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 4">
-              <h4>Blefaroplastia</h4>
-              <p>A excelência e os resultados </p>
-            </div>
-            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 5">
-              <h4>Rinoplastia</h4>
-              <p>A excelência e os resultados </p>
-            </div>
-            <div class="grid-item"><img src="img/img1.jpg" alt="Foto 6">
-              <h4>Otoplastiat</h4>
-              <p>A excelência e os resultados </p>
-            </div>
-        </div>
-    </section>
- <!-- tecnologia -->
-<section class="bg_section_tec">
- <section class="section_tec">
 
-     <h3>Cirurgia Plástica com inovação <br>e cuidado humanizado.</h3>
-
-
-   <div class="tec">
-<div>
- <span class="icone_tec"><img src="img/icone.svg"></span> 
- <h4>Referência Nacional</h4>
- <p>A excelência e os resultados do Dr. Marcos Storion são amplamente reconhecidos</p>
-
-</div>
-
-<div>
-  <span class="icone_tec"><img src="img/icone.svg"></span> 
-  <h4>Referência Nacional</h4>
-  <p>A excelência e os resultados do Dr. Marcos Storion são amplamente reconhecidos</p>
- 
- </div>
-
- <div>
-  <span class="icone_tec"><img src="img/icone.svg"></span> 
-  <h4>Referência Nacional</h4>
-  <p>A excelência e os resultados do Dr. Marcos Storion são amplamente reconhecidos</p>
- 
- </div>
-
- <div>
-  <span class="icone_tec"><img src="img/icone.svg"></span> 
-  <h4>Referência Nacional</h4>
-  <p>A excelência e os resultados do Dr. Marcos Storion são amplamente reconhecidos</p>
- 
- </div>
-
-
-   </div>
-    
- </section>
-</section>
-
+   <!-- fim -->
 <section class="section_fim">
   <h3> Pagamento Facilitado</h3>
   <divc class="conteudo_fim">

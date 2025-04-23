@@ -116,15 +116,14 @@ header {
     z-index: 10;
     filter: drop-shadow(3px 3px 3px #6f6d6db3);
 
+    background: linear-gradient(to right, #e9dfd8, #eda669, #de9947);
 
-    background: linear-gradient(to right, #e9dfd8, #fbc596, #e0b179);
-
- 
 
 }
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -132,12 +131,14 @@ nav {
 .menu {
     list-style: none;
     display: flex;
+ 
 
 }
 
 .menu li {
-    margin: 0 15px;
-    padding: .5em;
+    border-bottom: none;
+    padding: 1em;
+    border-bottom: none;
 }
 
 .menu a {
@@ -145,6 +146,14 @@ nav {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    transition: all 1s ease;
+    text-shadow: #78481157 2px 3px 2px;
+
+}
+
+.menu a:hover {
+    color:#ffb98b;
+    transition: all 1s ease;
 }
 
 .hamburger {
@@ -371,7 +380,16 @@ width:5em;
     padding: 50px 20px 70px;
     background-color: #ffffff;
 }
-
+.fotos-grid h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #de8704;
+    font-size: 2em;
+    line-height: 1.1;
+    margin-bottom: .8em;
+    line-height: 1.1;
+    text-align: center;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -537,12 +555,12 @@ width: 5em;
 
 
 footer {
+    z-index: 2;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index:1000;
-   
+  
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -589,7 +607,7 @@ footer p {
 .tour{
 
     width: 100%;
-    background-image: url(img/bg_sobre.png);
+   background-color: #f0ede9;
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -616,10 +634,11 @@ footer p {
   
   .galeria-360-scroll::-webkit-scrollbar {
     height: 8px;
+    
   }
   
   .galeria-360-scroll::-webkit-scrollbar-thumb {
-    background: #ccc;
+    background: #e0b179;
     border-radius: 4px;
   }
   
@@ -841,41 +860,39 @@ background-position: top;
   /* MEDIA QUERIE*/
 
 
-  @media (max-width: 1640px) {
+    
+    @media (max-width: 1220px) {
 
 
-    .bg_auto{
+        .bg_auto{
     
-        background-color: #ffffffb5;
-        border-radius: 40px;
-        padding: 1.2em;
-    
-    
-    }
-    .section_fim h3{
-    
-        text-align: center;
-        padding: .2em;
-        padding-bottom: .2em;
-        padding-top: 1em;
-        color: #ffffff;
-        font-size: 1.8em;
-        filter: drop-shadow(3px 3px 3px #6f6d6db3);
-    }
-    
-    .conteudo_fim{
-    
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        align-items: center;
-     
-    
-    }
-    
-    }
-    
-    @media (max-width: 768px) {
+            background-color: #ffffffb5;
+            border-radius: 40px;
+            padding: 1.2em;
+        
+        
+        }
+        .section_fim h3{
+        
+            text-align: center;
+            padding: .2em;
+            padding-bottom: .2em;
+            padding-top: 1em;
+            color: #ffffff;
+            font-size: 1.8em;
+            filter: drop-shadow(3px 3px 3px #6f6d6db3);
+        }
+        
+        .conteudo_fim{
+        
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+         
+        
+        }
+
         .dep {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -901,30 +918,50 @@ background-position: top;
         }
     
         .menu {
-            display: none;
+            width: 50%;
             flex-direction: column;
             position: absolute;
             top: 90px;
-           
+            height: 0vh;
             right: 0;
-            background-color: #333;
-            padding: 10px 0;
-         
+            background-color: #ffffff;        
+            transition: all .7s ease;
+            overflow: hidden;
+            row-gap: 1em;
+            padding-left: 1em;
+            padding-top: 0em;
+        }
+
+
+        .menu.active {
+            width: 50%;
+            flex-direction: column;
+            position: absolute;
+            top: 90px;
+            height: 100vh;
+            right: 0;
+            background-color: #ffffff;          
+            transition: all .7s ease;
+            padding-left: 1em;
+            padding-top: 1em;
+            overflow: scroll;
+        }
+
+        .menu li {
+          
+            border-bottom: 1px solid #f28a45;
+        }
+        
+        .menu a {
+            color:#ba6832;
+            text-shadow:none;
+           
         }
     .tec {
         flex-wrap: wrap;
+        justify-content: center;
     }
-        .menu.active {
-            display: flex;
-           height: 100vh;
-            width: 50%;
-            align-items: flex-end;
       
-       
-        }
-    
-       
-    
     
         .hamburger {
             display: flex;
@@ -968,7 +1005,7 @@ background-position: top;
           }
         
           .galeria-360-scroll::-webkit-scrollbar-thumb {
-            background-color: #888;
+            background: #e0b179;
             border: 4px solid #eee;
           }
         

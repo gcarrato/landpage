@@ -28,3 +28,20 @@ window.addEventListener('resize', function() {
 });
 
 
+document.querySelectorAll('.menu a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const alvo = document.querySelector(this.getAttribute('href'));
+  
+      if (alvo) {
+        const headerOffset = 120; // ← Altere esse valor conforme a altura do seu cabeçalho
+        const posicao = alvo.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+        document.querySelector('.menu').classList.remove('active');
+        window.scrollTo({
+          top: posicao,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
