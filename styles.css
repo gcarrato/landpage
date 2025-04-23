@@ -574,7 +574,7 @@ footer {
 .rod{
 
     display: block;
-    padding: .5em;
+    padding: 0 .5em;
 }
 .social-media {
     margin-bottom: 10px;
@@ -1015,3 +1015,32 @@ background-position: top;
         
        
     }
+
+    @media (max-width: 768px) {
+
+        .menu {
+            width: 70%;
+            row-gap:0em;
+        }
+        .menu.active {
+            width: 70%;
+
+        }
+
+       
+        
+          /* Para navegadores WebKit (Chrome, Safari, Edge) */
+          .menu::-webkit-scrollbar {
+            width: 12px; /* Ajuste a largura conforme desejado */
+          }
+        
+          .menu::-webkit-scrollbar-thumb {
+            background-color: #e0b179; /* Cor da parte móvel da barra */
+            border-radius: 6px; /* Bordas arredondadas */
+          }
+        
+          .menu::-webkit-scrollbar-track {
+            background-color: #f1f1f1; /* Cor da trilha da barra */
+          }
+        
+      }
