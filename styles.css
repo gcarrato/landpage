@@ -258,9 +258,12 @@ nav {
 .agendar h2{
 
 padding-top: 1em;
+padding-left: 20px;
+padding-right: 20px;
     }
 .agendar p{
-
+    padding-left: 20px;
+    padding-right: 20px;
 margin-bottom: 1em;
 }
 .whatsapp-button {
