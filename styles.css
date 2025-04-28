@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
- background-color: #dec9ba36;
+body {
+    font-family: 'Poppins', sans-serif;
+
+  
 }
 .logo{
 
@@ -41,6 +43,8 @@ h4{
     font-size: 1.2em;
     text-align: center;
     line-height: 1.1;
+    margin-bottom: .5em;
+    margin-top: .3em;
 }
 h1{
     font-size: 3em;
@@ -97,13 +101,7 @@ p {
 }
 
 
-body {
-    font-family: 'Poppins', sans-serif;
-    
 
-        background-color: #f5f9fc;
-  
-}
 
 header {
     background-color: #dbad8e;
@@ -192,6 +190,9 @@ nav {
     height: 100%;
     display: flex;
     transition: transform 1s ease;
+
+
+    
 }
 
 .carousel img {
@@ -247,7 +248,7 @@ nav {
    transition: all ease .3s;
 }
 
-.agendar {
+.resultado {
 
     background-color: #dec9ba;
     text-align: center;
@@ -255,15 +256,13 @@ nav {
     background-color: #dec9ba36;
  
 }
-.agendar h2{
-
-padding-top: 1em;
-padding-left: 20px;
-padding-right: 20px;
-    }
-.agendar p{
-    padding-left: 20px;
+.resultado h3{
+    padding-top: 50px;
+}
+.resultado p{
+  
     padding-right: 20px;
+  
 margin-bottom: 1em;
 }
 .whatsapp-button {
@@ -279,6 +278,7 @@ margin-bottom: 1em;
 .servicos {
     padding: 50px 20px;
     text-align: center;
+    overflow-x: scroll;
 }
 
 .cards {
@@ -310,6 +310,12 @@ margin-bottom: 1em;
     margin: auto;
     text-align: left;
    
+}
+
+.sobre p{
+
+    padding-right: 20px;
+    margin-bottom: 1em;
 }
 .ico_sobre img{
 
@@ -355,8 +361,14 @@ gap: 1.4em;
     object-fit: cover;
 height: 100%;
     max-height: 650px;
-}
 
+   
+}
+.section_auto h3{
+    padding-top: 1em;
+  
+    padding-right: 20px;
+}
 .bg_section_tec{
     background-image: url("img/bg_sobre.png");
     background-repeat: no-repeat;
@@ -390,13 +402,39 @@ width:5em;
     font-size: 2em;
     line-height: 1.1;
     margin-bottom: .8em;
+
     line-height: 1.1;
     text-align: center;
+}
+
+.fotos-grid2 h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #de8704;
+    font-size: 2em;
+    line-height: 1.1;
+    margin-bottom: .8em;
+padding-top: 2em;
+    line-height: 1.1;
+    text-align: center;
+}
+.fotos-grid2 h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #de8704;
+    font-size: 2em;
+    line-height: 1.1;
+    margin-bottom: .8em;
+    margin-top: 2em;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 2em;
 }
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 70px;
+    column-gap: 3em;
+    row-gap: 11em;
 }
 
 .grid-container p{
@@ -412,7 +450,12 @@ width:5em;
     object-fit: cover;
     border-radius: 8px;
 }
-
+.cont_grid{
+  margin: 1em;  
+}
+.cont_grid h4{
+ padding-bottom: 1em;
+  }
 .contato {
     padding: 50px 20px;
     text-align: center;
@@ -540,9 +583,7 @@ width: 5em;
     max-width: 1020px;
     margin: auto;
     text-align: center;
-
-
-   
+ 
 }
 
 .icone_dep img{
@@ -801,7 +842,7 @@ background-position: top;
     margin: auto;
     
 }
-.estrutura h2{
+.estrutura h3{
     text-align: center;
     margin-bottom: .5em;
 
@@ -856,9 +897,47 @@ background-position: top;
   .mp4-btn:hover {
     background-color: rgba(255,255,255,0.2);
   }
-  
-
-
+    /* estetica facial*/
+    .estetica-galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding: 2rem;
+      }
+      
+      .estetica-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 260px;
+        text-align: center;
+      }
+      
+      .estetica-item img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #ccc;
+        transition: transform 0.3s ease;
+        margin-bottom: 1em;
+      }
+      
+      .estetica-item img:hover {
+        transform: scale(1.03);
+      }
+      
+      .estetica-item p {
+        margin-top: 10px;
+        font-size: 16px;
+       
+      }
+      
+      
 
   /* MEDIA QUERIE*/
 
@@ -1044,6 +1123,19 @@ background-position: top;
         
           .menu::-webkit-scrollbar-track {
             background-color: #f1f1f1; /* Cor da trilha da barra */
+          }
+
+          .estetica-item {
+            max-width: 90%;
+          }
+        
+          .estetica-item img {
+            max-width: 100%;
+            border-radius: 50%;
+          }
+        
+          .estetica-item p {
+            font-size: 14px;
           }
         
       }
