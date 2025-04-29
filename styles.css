@@ -332,7 +332,16 @@ gap: 1.4em;
 
 
 }
+.tec h4{
+text-align: left;
+padding-bottom: .5em;
+line-height: 1.3;
 
+}
+
+.tec p{
+    text-align: left;
+    }
 .bg_auto{
 
     background-color: #ffffff00;
@@ -370,7 +379,7 @@ height: 100%;
     padding-right: 20px;
 }
 .bg_section_tec{
-    background-image: url("img/bg_sobre.png");
+    background-image: url("img/bg_inov.png");
     background-repeat: no-repeat;
     object-fit: cover;
     height: 100%;
@@ -379,7 +388,7 @@ height: 100%;
 .section_tec {
     padding: 50px 20px;
     text-align: center;
-    max-width: 1020px;
+    max-width: 1332px;
     margin: auto;
     text-align: center;
 
@@ -542,7 +551,7 @@ color: #de8704;
     margin-top: 3em;
     gap: 1.4em;
     column-gap: 2em;
-    row-gap: 1em;
+    row-gap: 3em;
     
     }
 
@@ -554,6 +563,7 @@ color: #de8704;
         /* border-radius: 20px; */
         padding: .4em;
         border-bottom: 1px solid #de8804;
+        text-align: left;
     }
     .dep h4{
 
@@ -569,11 +579,11 @@ color: #de8704;
 width: 5em;
     }
 .bg_section_dep{
-    background-image: url("img/bg_dep.jpg");
+    background-image: url("img/bg_dep.png");
     background-repeat: no-repeat;
     object-fit: cover;
     height: 100%;
-    background-position-y: center;
+    background-position-y: top;
     background-position-x:center;
 
 }
@@ -655,9 +665,9 @@ footer p {
     background-repeat: no-repeat;
     background-position: top;
 }
-.tour h2 {
+.tour h3 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.7em;
   
   }
   
@@ -706,8 +716,9 @@ footer p {
 
 .center_fac h3 {
 
-  
+   margin-top: 2.2em;
     padding-left: 20px;
+
 }
 .center_fac h3 span img{
     width: 1.5em;
@@ -719,6 +730,7 @@ footer p {
     color: #929da5;
     font-size: 1em;
     padding-top: 1em;
+    padding-bottom: 1em;
 
 }
 
@@ -766,7 +778,7 @@ button.collapsible{
 
 .active,
 .collapsible:hover {
-    background-color: #e9b782bb;
+    background-color: #e9b78268;
     transition: all .3s ease;
    
    
@@ -977,14 +989,15 @@ background-position: top;
 
         .dep {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(1, 252px);
             /* gap: 10px; */
             margin-top: 3em;
             gap: 1.4em;
             column-gap: 2em;
-            row-gap: 5em;
+            row-gap: 3em;
         }
+
        .logo{
 
       width: 16em;
