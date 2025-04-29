@@ -404,6 +404,12 @@ width:5em;
     padding: 50px 20px 70px;
     background-color: #ffffff;
 }
+.fotos-grid p{
+    padding: 0px 20px 70px;
+    max-width: 870px;
+    margin: auto;
+   
+}
 .fotos-grid h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -657,21 +663,18 @@ footer p {
     position: relative;
     top: -6vh;
 }
-/* 360 */
-.tour{
 
-    width: 100%;
-   background-color: #f0ede9;
-    background-repeat: no-repeat;
-    background-position: top;
-}
-.tour h3 {
-    text-align: center;
-    padding-top: 1.7em;
-  
-  }
-  
+
   /* Scroll horizontal */
+
+.grid_estrutura{
+
+    display: flex;
+    max-width: 1090px;
+
+    margin: auto;
+}
+
 .galeria-360-scroll {
     display: flex;
     max-width: 530px;
@@ -682,7 +685,7 @@ footer p {
     scroll-padding: 20px;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
-    margin: auto;
+
    
   }
   
@@ -700,7 +703,7 @@ footer p {
     flex: 0 0 auto;
     width: 500px;
     height: 300px;
-    border-radius: 12px;
+ 
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(192, 8, 8, 0.1);
     scroll-snap-align: start;
@@ -879,12 +882,12 @@ background-position: top;
   
   .mp4-slide {
     min-width: 100%;
-    padding: 10px;
+    padding: 19px;
   }
   
   video {
     width: 100%;
-    border-radius: 10px;
+
     background: black;
   }
   
@@ -957,7 +960,11 @@ background-position: top;
     
     @media (max-width: 1220px) {
 
+        .grid_estrutura{
 
+          flex-wrap: wrap;
+          max-width: 530px;
+        }
         .bg_auto{
     
             background-color: #ffffffb5;
