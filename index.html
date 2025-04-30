@@ -1,458 +1,806 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AUTOESTIMA</title>
-    <link rel="stylesheet" href="carrosel.css">
-    <link rel="stylesheet" href="styles.css">
-  <script src="https://www.youtube.com/iframe_api"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-</head>
-<body>
-   
-    <!-- Menu -->
-    <header>
-      <a href="https://wa.me/SEU_NUMERO" class="whatsapp-button" target="_blank">
-           
-        <i class="fab fa-whatsapp"></i>
-        
-    </a>
-        <nav>
-            <div class="logo">
-                <div class="logo"><img src="img/logo.svg"></div>
-            </div>
-            
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-              
-                <li><a href="#plasticacorporal">Cirurgia Corporal</a></li>
-         
-                <li><a href="#duvidas">Dúvidas frequentes</a></li>
-                <li><a href="#inovacao">Inovação</a></li>
-                <li><a href="#estrutura">Estrutura</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-            </ul>
-            <div class="hamburger" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-        </nav>
-     
-      
-     
- 
-    </header>
+  <title> AUTOESTIMA </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="WINNERS TIME">
+  <meta name="description" content=" A PRIMEIRA CLINICA MÉDICA 100% ONLINE NO BRASIL">
+  <meta name="keywords" content="html5, tecnologia">
 
-    <!-- Seção Home (Carrossel) -->
-    <section id="home" class="hero">
-        
-        <div class="hero-content">
-           <div class="titulo_destaque"><h1>Cirurgia Plástica Avançada</h1>
-            <p class="ptitle">Procedimentos realizados apenas por cirurgiões membros da Sociedade Brasileira de Cirurgia Plástica</p>
-        </div> 
-            <a href="#servicos" class="cta-button">AGENDAR AVALIAÇÃO</a>
-        </div>
-        <div class="carousel">
-            <img src="img/img1.jpg" alt="Imagem 1">
-            <img src="img/img2.jpg" alt="Imagem 2">
-            <img src="img/img3.jpg" alt="Imagem 3">
-        </div>
-    </section>
- <!-- Sobre Nós -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
- <section class="section_sobre" >
- <section class="sobre">
-    <h3 id="sobre">Sobre Nós<span class="ico_sobre"><img src="img/ico_sobre.svg"></span></h3>
-   
-    <p>Bem-vindo(a) à Clínica de Cirurgia Plástica Autoestima, onde transformamos sonhos em realidade com segurança, cuidado e dedicação. Nosso compromisso é oferecer um atendimento personalizado e respeitoso, colocando você no centro de tudo o que fazemos.</p>
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/main.css">
 
-    <p>Com uma equipe de profissionais altamente qualificados e atualizados nas técnicas mais modernas, trabalhamos para que você se sinta ainda mais feliz, confiante e realizado(a) com sua imagem. A sua segurança é a nossa prioridade: utilizamos tecnologia de ponta e seguimos protocolos rigorosos para garantir procedimentos eficazes e seguros.</p>
-    
-    <p>Oferecemos um acompanhamento completo, do pré ao pós-operatório, para que você se sinta acolhido(a) em cada etapa da sua jornada. Estamos aqui para esclarecer suas dúvidas, apoiar seus momentos especiais e realizar seus sonhos com responsabilidade e excelência.</p>
-    
-    <p>Seja para aumento, redução, lipoaspiração ou outros procedimentos estéticos, estamos prontos para ajudar você a alcançar sua melhor versão. Venha nos conhecer e descubra como podemos transformar sua autoestima!</p>
-    
-    <p><strong>AUTOESTIMA — sua autoestima, nossa paixão.</strong></p>
-    
-    
-    </section>
-</section>
- 
-        </div>
-    </section> 
-    
-   
- <!-- CIRURGIA PLÁSTICA CORPORAL -->
- <section class="fotos-grid">
-  <h3 id="plasticacorporal">Cirurgia Plástica Corporal</h3>
-  <p>A autoestima vai muito além da aparência — é sobre como você se sente consigo mesmo(a). Quando estamos bem, refletimos mais segurança, felicidade e qualidade de vida.
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MGF4B03BJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-Na AUTO ESTIMA, nossa missão é realçar a sua beleza com naturalidade e segurança, através de procedimentos personalizados de Cirurgia Plástica e Estética. Cada detalhe importa para que você se sinta ainda mais confiante e satisfeito(a) consigo mesmo(a).</p>
-    <div class="grid-container">
-        <div class="grid-item"><img src="img/lipo.jpg" alt="Foto 1">
-        <div class="cont_grid">
-          <h4>Lipoaspiração</h4>
-          <p>Livre-se dos excessos e realce sua silhueta com precisão e segurança, transformando seu corpo com resultados naturais</p>
-        </div>
-        </div>
-        <div class="grid-item"><img src="img/mamoplastia.jpg" alt="Foto 2">
-          <div class="cont_grid">
-            <h4>Mamoplastia de Aumento</h4>
-            <p>Eleve sua autoestima remodelando os seios para um formato mais proporcional e alinhado ao seu desejo</p>
-          </div>
-        </div>
-        <div class="grid-item"><img src="img/mastopexia.jpg" alt="Foto 3">
-          <div class="cont_grid">
-            <h4>Mastopexia</h4>
-            <p>Recupere a firmeza dos seios e alcance um contorno mais jovem e natural</p>
-          </div>
-        </div>
-        <div class="grid-item"><img src="img/lipoabdominoplastia.jpg" alt="Foto 4">
-          <div class="cont_grid">
-            <h4>Lipoabdominoplastia</h4>
-            <p>Conquiste um abdômen definido e livre de flacidez, valorizando seu contorno corporal</p>
-          </div>
-        </div>
-        <div class="grid-item"><img src="img/ninfoplastia.jpg" alt="Foto 5">
-          <div class="cont_grid">
-            <h4>Ninfoplastia</h4>
-            <p>Livre-se dos excessos e realce sua silhueta com precisão e segurança, transformando seu corpo com resultados naturais</p>
-          </div>
-        </div>
-        <div class="grid-item"><img src="img/gluteoplastia .jpg" alt="Foto 6">
-          <div class="cont_grid">
-            <h4>Gluteoplastia
-            </h4>
-            <p>Harmonize as curvas com um bumbum modelado e volumoso, em perfeita proporção ao seu corpo</p>
-          </div>
-        </div>
-
-        <div class="grid-item"><img src="img/panturrilha.jpg" alt="Foto 6">
-          <div class="cont_grid">
-            <h4>Implantes de Panturrilha
-            </h4>
-            <p>Alcance pernas mais marcantes e harmoniosas, destacando sua silhueta com elegância
-
-            </p>
-          </div>
-        </div>
-
-        <div class="grid-item"><img src="img/ginecomastia.jpg" alt="Foto 6">
-          <div class="cont_grid">
-            <h4>Correção de Ginecomastia
-            </h4>
-            <p>Livre-se do excesso de tecido na região peitoral e recupere confiança em sua aparência</p>
-          </div>
-        </div>
-
-        <div class="grid-item"><img src="img/liftingBracos.jpg" alt="Foto 6">
-          <div class="cont_grid">
-            <h4>Lifting de Braços
-
-            </h4>
-            <p>Remova a flacidez e valorize os braços com um contorno firme e rejuvenescido
-
-            </p>
-          </div>
-        </div>
-
-
-      
-    </div>
-</section>
-
-
- 
-
-
-       <!-- Dúvidas frequentes-->
-
-       <div class="center_fac">
-
-
-        <h3 id="duvidas">Dúvidas frequentes <span><img src="img/duvida.svg"></span> </h3>
-    
-    
-        <button type="button" class="collapsible">Botox deixa o rosto sem expressão?
-<span><img src="img/seta.svg"></span></button>
-        <div class="content_collapsible">
-          <p> Não, se for aplicado na dose certa por um profissional qualificado. O resultado pode ser natural.</p>
-        </div>
-    
-        <button type="button" class="collapsible">Quanto tempo leva para ver o resultado final de uma cirurgia plástica?<span><img src="img/seta.svg"></span></button>
-        <div class="content_collapsible">
-          <p>O inchaço pode durar semanas ou meses. O resultado final costuma aparecer entre 3 a 6 meses, dependendo do procedimento.</p>
-        </div>
-        <button type="button" class="collapsible">Preenchimento facial é definitivo?<span><img src="img/seta.svg"></span></button>
-        <div class="content_collapsible">
-          <p> Não. A maioria dos preenchedores é absorvida pelo corpo com o tempo e dura entre 9 meses a 2 anos.
-
-          </p>
-        </div>
-        <button type="button" class="collapsible">Cirurgia plástica deixa cicatriz?<span><img src="img/seta.svg"></span></button>
-        <div class="content_collapsible">
-          <p>Sim, toda cirurgia deixa alguma cicatriz, mas bons profissionais buscam deixá-las discretas e bem posicionadas.</p>
-        </div>
-        <button type="button" class="collapsible">Homens também fazem procedimentos estéticos?<span><img src="img/seta.svg"></span></button>
-        <div class="content_collapsible">
-          <p>Sim! Cada vez mais homens procuram tanto cirurgias quanto tratamentos estéticos como botox e limpeza de pele.</p>
-        </div>
-        <button type="button" class="collapsible">Posso fazer mais de uma cirurgia plástica no mesmo dia?<span><img src="img/seta.svg"></span></button>
-        <div class="content_collapsible">
-          <p> Sim, desde que o cirurgião avalie que é seguro para sua saúde. É comum combinar procedimentos como lipo e prótese.</p>
-        </div>
-    
-        <button type="button" class="collapsible">É possível voltar ao trabalho logo após um procedimento estético?<span><img src="img/seta.svg"></span></button>
-        <div class="content_collapsible">
-          <p> Depende do procedimento. Para os menos invasivos, como botox ou peeling, sim. Cirurgias exigem mais tempo de recuperação.</p>
-        </div>
-    
-      </div>
-
-
-
-   
- <!-- Inovação -->
- <section class="bg_section_tec">
-  <section class="section_tec">
- 
-      <h3 id="inovacao">Cirurgia Plástica com inovação <br>e cuidado humanizado.</h3>
- 
- 
-    <div class="tec">
- <div>
-  <span class="icone_tec"><img src="img/icone.svg"></span> 
-  <h4>Cirurgia Plástica com Planejamento 3D: Precisão e Segurança para o Pacientel</h4>
-  <p>A tecnologia 3D vem revolucionando a cirurgia plástica. Com softwares avançados de simulação, médicos conseguem planejar cirurgias com maior precisão, mostrando ao paciente uma prévia realista dos resultados. Isso aumenta a previsibilidade do procedimento, melhora a comunicação médico-paciente e reduz riscos.
-     A personalização de cada cirurgia agora é possível em um nível nunca antes alcançado.</p>
- 
- </div>
- 
- <div>
-   <span class="icone_tec"><img src="img/icone.svg"></span> 
-   <h4>Procedimentos Estéticos Não Invasivos: Tendência em Alta com Apoio da Tecnologia</h4>
-   <p>A busca por resultados rápidos e com menor tempo de recuperação tem impulsionado os procedimentos não invasivos. Técnicas como ultrassom microfocado, laser fracionado e bioestimuladores de colágeno estão entre os mais procurados. Com a ajuda da tecnologia, é possível tratar flacidez, rugas e gordura localizada sem cortes, com resultados naturais e progressivos.</p>
-  
-  </div>
- 
-  <div>
-   <span class="icone_tec"><img src="img/icone.svg"></span> 
-   <h4> Inteligência Artificial na Medicina Estética: Diagnóstico e Personalização de Tratamentos</h4>
-   <p>Clínicas modernas já utilizam inteligência artificial (IA) para analisar a pele, prever o envelhecimento e recomendar tratamentos personalizados. Aplicativos com escaneamento facial auxiliam médicos a identificar desequilíbrios de volume e textura, ajudando a indicar os melhores procedimentos estéticos com base em dados reais. A IA representa um salto na precisão dos tratamentos e na satisfação dos pacientes.</p>
-  
-  </div>
- 
-  <div>
-   <span class="icone_tec"><img src="img/icone.svg"></span> 
-   <h4> Impressão 3D e Biotecnologia: O Futuro da Cirurgia Reconstrutiva</h4>
-   <p>A impressão 3D já é uma aliada na reconstrução facial e corporal. Com ela, cirurgiões conseguem criar próteses sob medida e até réplicas de ossos ou cartilagens. Com o avanço da biotecnologia, pesquisas buscam imprimir tecidos vivos para reconstruções mais complexas. Esses recursos prometem transformar a cirurgia plástica reconstrutiva, oferecendo soluções mais funcionais e esteticamente harmônicas.</p>
-  
-  </div>
- 
- 
-    </div>
-     
-  </section>
- </section>
+    gtag('config', 'G-4MGF4B03BJ');
+  </script>
   <!-- fim -->
-  <!-- estrutura-->
-<section class="estrutura">
+</head>
 
-  <div class="estru">
-  <h3 id="estrutura">Estrutura Segura e Profissional</h3>
-  <p>As cirurgias realizadas pelos profissionais credenciados da Autoestima acontecem em hospitais parceiros como o Hospital Ibirapuera
-     e o Hospital Unity, ambos regulamentados pela Covisa, com alvará de funcionamento e responsáveis técnicos qualificados. </p><p>Toda a estrutura 
-     é cuidadosamente selecionada para garantir máxima segurança, priorizando sempre a saúde e a vida dos nossos pacientes.</p>
-    
-    </div>
+<body class="no-js">
 
-    <section class="grid_estrutura">
-
-    <div class="tour">
-  
-      <div class="galeria-360-scroll">
-        <div class="galeria-360-item">
-          <iframe src="https://www.google.com/maps/embed?pb=!4v1731507600766!6m8!1m7!1sCAoSLEFGMVFpcFAtRnoxQTVLLVREUE8wY0kweGFmOGpUNXZ5d0FkZlpraDdJVlhZ!2m2!1d-23.51636832756046!2d-46.54546032814802!3f160!4f0!5f0.7820865974627469"
-                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="galeria-360-item">
-          <iframe src="https://www.google.com/maps/embed?pb=!4v1745412074517!6m8!1m7!1sCAoSHENJQUJJaEFEeWNLekJTUUxER2ZrWHlBQUFyLTQ.!2m2!1d-23.51636832756046!2d-46.54546032814802!3f320!4f0!5f0.7820865974627469"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-  
-        <div class="galeria-360-item">
-          <iframe src="https://www.google.com/maps/embed?pb=!4v1745412161743!6m8!1m7!1sCAoSHENJQUJJaEFEeWRFUkJEZ2RIR2ZrWHRNQUJTeC0.!2m2!1d-23.51636832756046!2d-46.54546032814802!3f0!4f0!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-  
-  
-        <div class="galeria-360-item">
-          <iframe src="https://www.google.com/maps/embed?pb=!4v1745412202782!6m8!1m7!1sCAoSHENJQUJJaEFEeWNLekJTUUxER2ZrWHlBQUFRN0k.!2m2!1d-23.51636832756046!2d-46.54546032814802!3f324.5247126146436!4f-1.901827592465807!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-  
-  
-        <div class="galeria-360-item">
-          <iframe src="https://www.google.com/maps/embed?pb=!4v1745412255068!6m8!1m7!1sCAoSHENJQUJJaEFEeWNLekJTUUxER2ZrWHRNQUNZd1U.!2m2!1d-23.51636832756046!2d-46.54546032814802!3f160!4f10!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-  
-      </div>
-  
-    </div>  
-  <div class="mp4-carousel-wrapper">
+  <header class="header">
+  <div class="center_menu">
+    <a href="index.html" class="logo-text"></a>
  
-    <div class="mp4-carousel-track" id="mp4Carousel">
-      <div class="mp4-slide">
-        <video controls>
-          <source src="video/video1.mp4" type="video/mp4" />
-          Seu navegador não suporta vídeo HTML5.
-        </video>
-      </div>
-      <div class="mp4-slide">
-        <video controls>
-          <source src="video/video2.mp4" type="video/mp4" />
-          Seu navegador não suporta vídeo HTML5.
-        </video>
-      </div>
-      <div class="mp4-slide">
-        <video controls>
-          <source src="video/video3.mp4" type="video/mp4" />
-          Seu navegador não suporta vídeo HTML5.
-        </video>
-      </div>
-    </div>
+    <button style="display: none;" class="header__btnMenu">
+      <div class="menu_resp">MENU</div><i class="fas fa-bars fa-2x"></i> <span class="sr-only">Menu</span>
+    </button>
 
-    <div class="mp4-carousel-controls">
-      <button class="mp4-btn" onclick="mp4Prev()">❮</button>
-      <button class="mp4-btn" onclick="mp4Next()">❯</button>
-    </div>
-  </div>
-</section>
-</section>
+    <nav class="header__nav">
 
-
-        <!-- fim-->
-        <section class="bg_section_dep">
-          <section class="section_dep">
-         
-              <h3 id="depoimentos">Depoimentos<span class="ico_inf"><img src="img/infinito.svg"></span></h3>
-         
-         
-            <div class="dep">
-         <div>
-          <span class="icone_dep"><img src="img/angela.png"></span> 
-          <h4>Maria Silva <img src="img/star.svg"></h4>
-          <p>"Minha autoestima foi completamente renovada! A equipe cuidou de cada detalhe com muita atenção e profissionalismo. Recomendo!"</p>
-         
-         </div>
-         
-         <div>
-           <span class="icone_dep"><img src="img/angelica.png"></span> 
-           <h4>Fernanda Costa<img src="img/star.svg"></h4>
-           <p>"Escolher a AUTOESTIMA foi a melhor decisão para minha saúde e bem-estar. Profissionais competentes e resultados que superam expectativas!"
-
-           </p>
-          
-          </div>
-         
-          <div>
-           <span class="icone_dep"><img src="img/carla.png"></span> 
-           <h4>Larissa Pacheco<img src="img/star.svg"></h4>
-           <p>"Estou encantada com a mudança! A AUTOESTIMA une técnica avançada e cuidado humanizado em cada procedimento. Recomendo de coração!"</p>
-          
-          </div>
-         
-          <div>
-           <span class="icone_dep"><img src="img/cleide.png"></span> 
-           <h4>Renata Vasques
-
-            <img src="img/star.svg"></h4>
-           <p>"A clínica me passou total confiança. O pós-operatório foi tranquilo e me senti muito bem acompanhada."</p>
-          
-          </div>
-
-          <div>
-            <span class="icone_dep"><img src="img/julia.png"></span> 
-            <h4>Juliana Ferreira<img src="img/star.svg"></h4>
-            <p>"Realizei um tratamento facial e o resultado foi visível logo nas primeiras semanas. Voltarei com certeza!"</p>
-           
-           </div>
-           <div>
-            <span class="icone_dep"><img src="img/marta.png"></span> 
-            <h4>Camila Andrade<img src="img/star.svg"></h4>
-            <p>"Fiz minha rinoplastia com eles e não poderia estar mais feliz com o resultado. Atendimento impecável do início ao fim."</p>
-           
-           </div>
-           
-          
-             
-          </section>
-         </section>
-
-   <!-- fim -->
-<section class="section_fim">
-  <h3> Pagamento Facilitado</h3>
-  <divc class="conteudo_fim">
-
-  <h1>AGENDE SUA CONSULTA DE AVALIAÇÃO AGORA MESMO COM 1 CLICK</h1>
-<div><p>Agende sua avaliação completa pelo WhatsApp!
-  Oferecemos condições especiais: pagamento em até 20x no cartão de crédito e possibilidade de cirurgia imediata.<br>
-  Sabemos o quanto esse momento é importante para o seu bem-estar, por isso nossa avaliação é feita com todo o cuidado e atenção, esclarecendo todas as suas dúvidas.</p>
-
-  <a href="#servicos" class="cta-button">AGENDAR AVALIAÇÃO</a>
-</div>
-
-
-</div>
-
-</section>
-
-
-    <!-- Seção Contato -->
     
-    <!-- <section id="contato" class="contato">
-        <h3>Contato</h3>
-        <p>Entre em contato conosco para mais informações ou agendar um atendimento.</p>
-        <form>
-            <input type="text" placeholder="Seu nome" required>
-            <input type="email" placeholder="Seu email" required>
-            <textarea placeholder="Mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section> -->
-    
- <!-- Rodapé fixo -->
- <footer class="footer">
-    <div class="social-media">
-        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <ul>
        
-        <a href="mailto:seuemail@exemplo.com" class="social-icon">
-          <i class="fas fa-envelope"></i>
+          <li><a id="bt_nav1" href="#home">Home</a></li>
+          <li><a id="bt_nav1" href="#sobre">Sobre Nós</a></li>
+          <li><a id="bt_nav1" href="#plasticacorporal">Cirurgia Corporal</a></li>
+          <li><a id="bt_nav1" href="#duvidas">Dúvidas frequentes</a></li>
+          <li><a id="bt_nav1" href="#inovacao">Inovação</a></li>
+          <li><a id="bt_nav1" href="#estrutura">Estrutura</a></li>
+          <li><a id="bt_nav1" href="#depoimentos">Depoimentos</a></li>
+
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  <section class="hero">
+    <video autoplay muted loop playsinline>
+      <source src="video/video5.mp4" type="video/mp4">
+      <img src="img/01.jpg" alt="Fallback Image">
+  </video>
+  
+      
+      <div class="hero__title">
+     
+        Cirurgia Plástica Avançada
+      
+    </div>
+    <div class="hero__title2">Procedimentos realizados apenas por cirurgiões membros da Sociedade Brasileira de Cirurgia Plástica</div>
+
+
+    <a href="https://estabelecimento.rappidexx.com.br/public-search-establishment/8f02ab20-8b89-4bbd-8b6a-c0afbb08e330"
+      target="_self" class="hero__btn">Agendar Consulta</a>
+
+    
+
+      
+      
+  </section>
+
+  <div class="container">
+
+    <div class="whatsapp-float">
+      <span class="whatsapp-label">Agende sua <br>avaliação</span>
+      <a href="https://wa.me/SEUNUMERO" target="_blank" aria-label="Agende sua consulta pelo WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" class="whatsapp-icon" />
       </a>
     </div>
-    <p class="rod">© Diretora Clínica: Dra. Daniela Fontes da Silva Salgado | CRMSP: 1030497 | Licença Sanitária: CMVS 355030801-863-072553-1-4</p>
-</footer>
-    <script src="script.js"></script>
-    <script src="carousel.js"></script>
-    <script src="videos.js"></script>
 
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
+
+    <section class="people-cards">
+      <article class="people-cards__card">
+
+         <!-- <img src="img/c01.png" alt="Carousel Img" class="people-cards__image">-->
+
+        <div class="people-cards__avatar">
+          <img src="img/teamsprite_01.png" alt="Carousel Img">
+        </div>
+        <div class="people-cards__content">
+          <!-- <h2 class="people-cards__title">WINNERS TIME A PRIMEIRA CLINICA MEDICA 100% DIGITAL DA TELEMEDICINA NO BRASIL</h2>-->
+
+         
+
+
+            <p class="people-cards__text"><span class="font_weight">Bem-vindo(a) à Clínica de Cirurgia Plástica Autoestima</span>, onde transformamos sonhos em realidade com segurança, cuidado e dedicação. Nosso compromisso é oferecer um atendimento personalizado e respeitoso, colocando você no centro de tudo o que fazemos.
+
+           Com uma equipe de profissionais altamente qualificados e atualizados nas técnicas mais modernas, trabalhamos para que você se sinta ainda mais feliz, confiante e realizado(a) com sua imagem. A sua segurança é a nossa prioridade: utilizamos tecnologia de ponta e seguimos protocolos rigorosos para garantir procedimentos eficazes e seguros.</p>
+            
+           <p class="people-cards__text"> Oferecemos um acompanhamento completo, do pré ao pós-operatório, para que você se sinta acolhido(a) em cada etapa da sua jornada. Estamos aqui para esclarecer suas dúvidas, apoiar seus momentos especiais e realizar seus sonhos com responsabilidade e excelência.
+            
+           Seja para aumento, redução, lipoaspiração ou outros procedimentos estéticos, estamos prontos para ajudar você a alcançar sua melhor versão. Venha nos conhecer e descubra como podemos transformar sua autoestima!<span class="font_weight"> AUTOESTIMA — sua autoestima, nossa paixão.</span></p>
+            
+            
+        </div>
+
+           
+      </article>
+
+
+
+    </section>
+  </div>
+
+  <section class="content">
+    <div class="container">
+
+
+
+      <!-- <article>
+          
+           <h3><div class="paciente_thumb"></div>Gostaria de saber sobre vocês</h3>
+            <div class="paciente_wt"></div>
+            <p> A WINNERS TIME e a primeira clinica MEÉDICA 100% digital da história da TELEMEDICINA no BRASIL. Com milhares de meéicos de todas as especialidades,
+                a Winners Time possui a tecnologia mais avançada do mercado nacional, Regulamentada por todos os orgãos nacionais e recomendados pela ORGANIZACÃO
+                DA SAÚDE (OMS), milhares de pacientes satisfeitos que fazem parte da Winners Time e este número aumenta a cada dia.
+            </p>
+           <p>Winners Time está a sua disposição, seja para uma consulta preventiva ou consulta de tratamento de patologias pré existentes.</p>
+          </article>  -->
+    </div>
+  </section>
+
+<!-- CIRURGIA PLÁSTICA CORPORAL -->
+<section class="container_galeria">
+  <h3>CIRURGIA PLÁSTICA CORPORAL</h3>
+  <p> autoestima vai muito além da aparência — é sobre como você se sente consigo mesmo(a). Quando estamos bem, refletimos mais segurança, felicidade e qualidade de vida. Na AUTO ESTIMA, nossa missão é realçar a sua beleza 
+  com naturalidade e segurança, através de procedimentos personalizados de Cirurgia Plástica e Estética. Cada detalhe importa para que você se sinta ainda mais confiante e satisfeito(a) consigo mesmo(a).</p>
+  <section class="galeria">
+  
+    <div class="galeria-item">
+      <img src="img/lipo.jpg" alt="foto">
+      <div class="galeria-info">
+        <h3 class="galeria-titulo">Lipoaspiração</h3>
+        <p class="galeria-descricao">Livre-se dos excessos e realce sua silhueta com precisão e segurança, transformando seu corpo com resultados naturais</p>
+      </div>
+    </div>
+  
+    <div class="galeria-item">
+      <img src="img/lipo.jpg" alt="foto">
+      <div class="galeria-info">
+        <h3 class="galeria-titulo">Mamoplastia de Aumento</h3>
+        <p class="galeria-descricao">Eleve sua autoestima remodelando os seios para um formato mais proporcional e alinhado ao seu desejo</p>
+      </div>
+    </div>
+  
+    <div class="galeria-item">
+      <img src="img/lipo.jpg" alt="foto">
+      <div class="galeria-info">
+        <h3 class="galeria-titulo">Mastopexia</h3>
+        <p class="galeria-descricao">Recupere a firmeza dos seios e alcance um contorno mais jovem e natural</p>
+      </div>
+    </div>
+  
+    <div class="galeria-item">
+      <img src="img/lipo.jpg" alt="foto">
+      <div class="galeria-info">
+        <h3 class="galeria-titulo">Lipoabdominoplastia</h3>
+        <p class="galeria-descricao">Conquiste um abdômen definido e livre de flacidez, valorizando seu contorno corporal</p>
+      </div>
+    </div>
+  
+    <div class="galeria-item">
+      <img src="img/lipo.jpg" alt="foto">
+      <div class="galeria-info">
+        <h3 class="galeria-titulo">Ninfoplastia</h3>
+        <p class="galeria-descricao">Livre-se dos excessos e realce sua silhueta com precisão e segurança, transformando seu corpo com resultados naturais</p>
+      </div>
+    </div>
+  
+    <div class="galeria-item">
+      <img src="img/lipo.jpg" alt="foto">
+      <div class="galeria-info">
+        <h3 class="galeria-titulo">Gluteoplastia</h3>
+        <p class="galeria-descricao">Harmonize as curvas com um bumbum modelado e volumoso, em perfeita proporção ao seu corpo</p>
+      </div>
+    </div>
+  
+    <div class="galeria-item">
+      <img src="img/lipo.jpg" alt="foto">
+      <div class="galeria-info">
+        <h3 class="galeria-titulo">Implantes de Panturrilha</h3>
+        <p class="galeria-descricao">Alcance pernas mais marcantes e harmoniosas, destacando sua silhueta com elegância</p>
+      </div>
+    </div>
+  
+    <div class="galeria-item">
+      <img src="img/lipo.jpg" alt="foto">
+      <div class="galeria-info">
+        <h3 class="galeria-titulo">Correção de Ginecomastia</h3>
+        <p class="galeria-descricao">Livre-se do excesso de tecido na região peitoral e recupere confiança em sua aparência</p>
+      </div>
+    </div>
+  </section>
+  </section>
+  <!-- FIM -->
+
+
+  <div class="laptop-slider">
+    <div class="slideshow">
+      <figure>
+        <main>
+          <section>
+            <div class="center">
+              <h3>ESTRUTURA SEGURA E PROFISSIONAL</h3>
+              <p>As cirurgias realizadas pelos profissionais credenciados da Autoestima acontecem em hospitais parceiros como o Hospital Ibirapuera e o Hospital Unity, ambos regulamentados pela Covisa, com alvará de funcionamento e responsáveis técnicos qualificados.
+
+                Toda a estrutura é cuidadosamente selecionada para garantir máxima segurança, priorizando sempre a saúde e a vida dos nossos pacientes.</p>
+              <div id="YouTube-player"></div>
+
+              <div class="container_play">
+                <div id="bt_play_videos" class="play_video" onclick="youTubePlayerPlay()"><img src="img/-ico_play.svg">
+                </div>
+                <span class="nowrap">
+                  <div
+                    onclick="document.getElementById('YouTube-video-id').value='hU4o6Akvh3I'; youTubePlayerChangeVideoId();">
+                    <span class="bt_video">1</span>
+                  </div>
+                  <div
+                    onclick="document.getElementById('YouTube-video-id').value='-TAaw7reD_U'; youTubePlayerChangeVideoId();">
+                    <span class="bt_video">2</span>
+                  </div>
+                  <div
+                    onclick="document.getElementById('YouTube-video-id').value='nl4GZbUwbMo'; youTubePlayerChangeVideoId();">
+                    <span class="bt_video">3</span>
+                  </div>
+
+                  <div
+                  onclick="document.getElementById('YouTube-video-id').value='VMoVT6k2TPw'; youTubePlayerChangeVideoId();">
+                  <span class="bt_video">4</span>
+                </div>
+
+                </span>
+
+                <span class="nowrap margin-left-m margin-right-m">
+                  <label for="YouTube-video-id"></label>
+
+                  <input style="display:none;" id="YouTube-video-id" type="text" value="hU4o6Akvh3I" size="12"
+                    pattern="[_\-0-9A-Za-z]{11}" onchange="youTubePlayerChangeVideoId();">
+                </span>
+
+                <span class="nowrap2">
+                  <button class="button_play" onclick="youTubePlayerPlay();">Play</button>
+                  <button class="button_player" onclick="youTubePlayerPause();">Pause</button>
+                  <button class="button_player" onclick="youTubePlayerStop();">Stop</button>
+                </span>
+              </div>
+
+
+
+
+            </div>
+
+
+          </section>
+
+
+        </main>
+
+
+
+
+
+
+
+      </figure>
+
+
+
+      <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
+      <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <section class="last-articles">
+    <div class="last-articles__title">
+      <section class="content">
+        <div class="container">
+
+
+          <article>
+            <h3>CONHEÇA O ESCRITÓRIO DA AUTOESTIMA</h3> 
+    
+
+          <p class="people-cards__text">
+
+              Explore nosso escritório com fotos 360º e veja de perto um ambiente moderno,
+             elegante e pensado para oferecer conforto desde o primeiro contato.
+              Na <span class="font_weight">AUTOESTIMA</span>, cada detalhe reflete nosso compromisso com a excelência 
+              em cirurgia plástica e medicina estética.</p>
+
+            
+          </article>
+
+          <article class="centraliza">
+          <div id="container_iframe">
+
+            <div>   <iframe src="https://www.google.com/maps/embed?pb=!4v1731501905676!6m8!1m7!1sCAoSLEFGMVFpcE8yTEdJYm5SaGxkZGpEOGgyZGZOTVFLRzItYVRpNnFPcU92TnU2!2m2!1d-23.51636832756046!2d-46.54546032814802!3f0!4f0!5f0.7820865974627469"  
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+          
+
+         <div>   <iframe src="https://www.google.com/maps/embed?pb=!4v1731501905676!6m8!1m7!1sCAoSLEFGMVFpcE8yTEdJYm5SaGxkZGpEOGgyZGZOTVFLRzItYVRpNnFPcU92TnU2!2m2!1d-23.51636832756046!2d-46.54546032814802!3f0!4f0!5f0.7820865974627469"  
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+            <div>    <iframe src="https://www.google.com/maps/embed?pb=!4v1731507600766!6m8!1m7!1sCAoSLEFGMVFpcFAtRnoxQTVLLVREUE8wY0kweGFmOGpUNXZ5d0FkZlpraDdJVlhZ!2m2!1d-23.51636832756046!2d-46.54546032814802!3f160!4f0!5f0.7820865974627469"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+               <div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1731507631189!6m8!1m7!1sCAoSLEFGMVFpcFBfMWFraGpweFFjYTRZeFBsYXBNZFU3SWxXbXpjNng2OENhNTZi!2m2!1d-23.51636832756046!2d-46.54546032814802!3f340!4f10!5f0.7820865974627469" 
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+
+               <div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1731507683923!6m8!1m7!1sCAoSLEFGMVFpcE9vRm1kaXdrYXNTWVljcHlHWFhqUVVZNVdITXJPOGJyWWZWYmRD!2m2!1d-23.51636832756046!2d-46.54546032814802!3f160!4f10!5f0.7820865974627469"
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+               </div>
+
+               <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1731507731194!6m8!1m7!1sCAoSLEFGMVFpcE1EalpySXEwTFhKSmliWGFORUphbm1ONjEtdWtBOVFuWVJTaVFj!2m2!1d-23.51636832756046!2d-46.54546032814802!3f320!4f0!5f0.7820865974627469"
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+               </div>
+
+            <div>
+
+
+
+            </div>
+
+
+
+
+          </div>
+
+          </article>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- <div class="last-articles__thumbs">
+              <a href="#"><img src="img/articles/01.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/02.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/03.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/04.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/05.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/06.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/07.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/08.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/09.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/10.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/11.jpg" alt=""></a>
+              <a href="#"><img src="img/articles/12.jpg" alt=""></a>
+          </div>-->
+  </section>
+
+
+
+
+
+
+  <div class="center_fac">
+
+
+    <h3>
+     
+   Dúvidas frequentes <span><img src="img/duvida.svg"></span>
+    </h3>
+
+
+    <button type="button" class="collapsible">Botox deixa o rosto sem expressão?<span><img src="img/seta.svg"></span></button>
+    <div class="content_collapsible">
+      <p> Não, se for aplicado na dose certa por um profissional qualificado. O resultado pode ser natural.</p>
+    </div>
+
+    <button type="button" class="collapsible">Quanto tempo leva para ver o resultado final de uma cirurgia plástica?<span><img src="img/seta.svg"></span></button>
+    <div class="content_collapsible">
+      <p>O inchaço pode durar semanas ou meses. O resultado final costuma aparecer entre 3 a 6 meses, dependendo do procedimento.</p>
+    </div>
+    <button type="button" class="collapsible">Preenchimento facial é definitivo?<span><img src="img/seta.svg"></span></button>
+    <div class="content_collapsible">
+      <p> Não. A maioria dos preenchedores é absorvida pelo corpo com o tempo e dura entre 9 meses a 2 anos.</p>
+    </div>
+    <button type="button" class="collapsible">Cirurgia plástica deixa cicatriz?<span><img src="img/seta.svg"></span></button>
+    <div class="content_collapsible">
+      <p>Sim, toda cirurgia deixa alguma cicatriz, mas bons profissionais buscam deixá-las discretas e bem posicionadas.</p>
+    </div>
+    <button type="button" class="collapsible">Homens também fazem procedimentos estéticos?<span><img src="img/seta.svg"></span></button>
+    <div class="content_collapsible">
+      <p>Sim! Cada vez mais homens procuram tanto cirurgias quanto tratamentos estéticos como botox e limpeza de pele.</p>
+    </div>
+    <button type="button" class="collapsible">Posso fazer mais de uma cirurgia plástica no mesmo dia?<span><img src="img/seta.svg"></span></button>
+    <div class="content_collapsible">
+      <p>Sim, desde que o cirurgião avalie que é seguro para sua saúde. É comum combinar procedimentos como lipo e prótese.</p>
+    </div>
+
+    <button type="button" class="collapsible">É possível voltar ao trabalho logo após um procedimento estético?<span><img src="img/seta.svg"></span></button>
+    <div class="content_collapsible">
+      <p>Depende do procedimento. Para os menos invasivos, como botox ou peeling, sim. Cirurgias exigem mais tempo de recuperação.</p>
+    </div>
+
+  </div>
+
+  <section class="quote-container">
+
+
+
+
+
+
+    
+
+    <div class="quote-slideshow">
+      <h3>DEPOIMENTOS</h3>
+      <figure>
+        <div class="titulo_dep">
+          <span class="icone_dep"><img src="img/articles/julia.png"></span>
+          <span class="icone_texto"> Maria Silva<span class="icone_texto"> </span>
+            <img class="star_dep" src="img/articles/star.svg">
+
+        </div>
+
+        <h2>"Minha autoestima foi completamente renovada! A equipe cuidou de cada detalhe com muita atenção e profissionalismo. Recomendo!"</h2>
+
+      </figure>
+
+      <figure>
+        <div class="titulo_dep">
+          <span class="icone_dep"><img src="img/articles/laura.png"></span>
+          <span class="icone_texto"> Fernanda Costa<span class="icone_texto"> </span>
+            <img class="star_dep" src="img/articles/star.svg">
+
+        </div>
+
+        <h2>"Escolher a AUTOESTIMA foi a melhor decisão para minha saúde e bem-estar. Profissionais competentes e resultados que superam expectativas!"</h2>
+
+      </figure>
+
+      <figure>
+        <div class="titulo_dep">
+          <span class="icone_dep"><img src="img/articles/angelica.png"></span>
+          <span class="icone_texto"> Larissa Pacheco<span class="icone_texto"> </span>
+            <img class="star_dep" src="img/articles/star.svg">
+
+        </div>
+
+        <h2>"Estou encantada com a mudança! A AUTOESTIMA une técnica avançada e cuidado humanizado em cada procedimento. Recomendo de coração!" </h2>
+
+      </figure>
+
+      <figure>
+        <div class="titulo_dep">
+          <span class="icone_dep"><img src="img/articles/marta.png"></span>
+          <span class="icone_texto"> LUCAS MARTINS <span class="icone_texto"> </span>
+            <img class="star_dep" src="img/articles/star.svg">
+
+        </div>
+
+        <h2>"Minha experiência com o Winners Time clínica médica foi excelente! A consulta foi rápida e eficiente,
+          e eu pude discutir minhas preocupações de saúde sem sair de casa." </h2>
+
+      </figure>
+
+      <figure>
+        <div class="titulo_dep">
+          <span class="icone_dep"><img src="img/articles/angela.png"></span>
+          <span class="icone_texto"> Renata Vasques<span class="icone_texto"> </span>
+            <img class="star_dep" src="img/articles/star.svg">
+
+        </div>
+
+        <h2>"A clínica me passou total confiança. O pós-operatório foi tranquilo e me senti muito bem acompanhada." </h2>
+
+      </figure>
+
+      <figure>
+        <div class="titulo_dep">
+          <span class="icone_dep"><img src="img/articles/cleide.png"></span>
+          <span class="icone_texto">Juliana Ferreira<span class="icone_texto"> </span>
+            <img class="star_dep" src="img/articles/star2.svg">
+
+        </div>
+
+        <h2>"Realizei um tratamento facial e o resultado foi visível logo nas primeiras semanas. Voltarei com certeza!" </h2>
+
+      </figure>
+
+    
+
+
+
+   
+
+      <span class="prev" style="display:none;"><i class="fas fa-angle-left fa-2x"></i></span>
+      <span class="next" style="display:none;"><i class="fas fa-angle-right fa-2x"></i></span>
+    </div>
+
+
+
+  </section>
+<section class="container_valor">
+
+  <h3>CIRURGIA PLÁSTICA INOVADORA</h3> 
+    
+  <div class="center_valor">
+
+    <div class="card"><h3>Cirurgia Plástica com Tecnologia 3D</h3>
+      <p> A tecnologia 3D está transformando a cirurgia plástica. Com softwares de simulação, o médico pode planejar a cirurgia com mais precisão e mostrar ao paciente uma prévia dos resultados. Isso melhora a comunicação, aumenta a segurança e permite uma personalização muito maior do procedimento.
+      
+      </p>
+      </div>
+
+<div class="card"><h3>Tecnologia a Favor da Beleza</h3>
+<p> Procedimentos estéticos não invasivos estão em alta. Com tecnologias como ultrassom, laser e bioestimuladores, é possível tratar flacidez, rugas e gordura localizada sem cirurgia. Os resultados são naturais, com menos tempo de recuperação.
+
+</p>
+</div>
+
+<div class="card"><h3>Tratamentos Mais Precisos e Personalizados</h3>
+<p>
+  A inteligência artificial já é usada na medicina estética para analisar a pele e indicar os melhores tratamentos. Com escaneamento facial, médicos identificam sinais de envelhecimento e definem procedimentos com base em dados reais. Isso torna os cuidados mais precisos e eficazes.</p>
+</div>
+
+    
+  </div>
+</section>
+
+
+
+
+  <div class="modal-container1">
+    <div class="modal">
+
+      <hr />
+      <div class="btns">
+       
+        <button class="btnClose" onclick="closeModal1()">x</button>
+      </div>
+      <span>
+      
+       <img src="img/certificado_g.jpg">
+      </span>
+      <hr />
+     
+    </div>
+    
+  </div>
+
+
+
+  <div class="modal-container2">
+    <div class="modal">
+     
+      <hr />
+      <div class="btns">
+       
+        <button class="btnClose" onclick="closeModal2()">x</button>
+      </div>
+      <span>
+       <img src="img/crm_g.png">
+      </span>
+      <hr />
+     
+    </div>
+    
+  </div>
+
+
+  <div class="modal-container3">
+    <div class="modal">
+     
+      <hr />
+      <div class="btns">
+       
+        <button class="btnClose" onclick="closeModal3()">x</button>
+      </div>
+      <span>
+       <img src="img/vigilancia_g.png">
+      </span>
+      <hr />
+    
+    </div>
+    
+  </div>
+      
+
+  <section>
+    <div id="cCarousel">
+      <div class="arrow" id="prev"><i class="fas fa-angle-left fa-2x"></i></div>
+      <div class="arrow" id="next"><i class="fas fa-angle-right fa-2x"></i></div>
+  
+      <div id="carousel-vp">
+        <div id="cCarousel-inner">
+
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DHJM8wKOnr8/" target="_blank"></a> 
+           <iframe id="frame" width="100%" scrolling="no" height="568" src="https://www.instagram.com/p/DHJM8wKOnr8/embed" frameborder="0"></iframe> 
+          
+           </article>
+
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DG1IFgdxEBI/" target="_blank"></a> 
+           <iframe id="frame" width="100%" scrolling="no" height="568" src="https://www.instagram.com/p/DG1IFgdxEBI/embed" frameborder="0"></iframe> 
+          
+           </article>
+  
+          <article class="cCarousel-item">
+           <a class="bt_ver" href="https://www.instagram.com/reel/DDfH5mox71T/" target="_blank"></a> 
+          <iframe id="frame" width="100%" scrolling="no" height="568" src="https://www.instagram.com/p/DDfH5mox71T/embed" frameborder="0"></iframe> 
+         
+          </article>
+  
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DFGMpqQRLFy/" target="_blank"></a> 
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DFGMpqQRLFy/embed" frameborder="0"></iframe>
+           
+          </article>
+
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DBZaF2eSAT1/" target="_blank"></a> 
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/reel/DBZaF2eSAT1/embed" frameborder="0"></iframe>
+           
+          </article>
+
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DAq8ItQP01x/" target="_blank"></a> 
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/reel/DAq8ItQP01x/embed" frameborder="0"></iframe>
+           
+          </article>
+
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DAl5n7ySw71/" target="_blank"></a> 
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/reel/DAl5n7ySw71/embed" frameborder="0"></iframe>
+           
+          </article>
+
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DAGyjIpu4LK/" target="_blank"></a> 
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/reel/DAGyjIpu4LK/embed" frameborder="0"></iframe>
+           
+          </article>
+
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DAB3XJtSwIW/" target="_blank"></a> 
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/reel/DAB3XJtSwIW/embed" frameborder="0"></iframe>
+           
+          </article>
+
+          <article class="cCarousel-item">
+            <a class="bt_ver" href="https://www.instagram.com/reel/DABRBvrOWBu/" target="_blank"></a> 
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/reel/DABRBvrOWBu/embed" frameborder="0"></iframe>
+           
+          </article>
+
         
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
+  
+          <article class="cCarousel-item">
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DE5ZY4SRRBb/embed" frameborder="0"></iframe>
+           
+          </article>
+  
+          <article class="cCarousel-item">
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DE8KQnmxRVJ/embed" frameborder="0"></iframe>
+           
+          </article>
+  
+          <article class="cCarousel-item">
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DCpUFD_SViw/embed" frameborder="0"></iframe>
+            
+          </article>
+  
+          <article class="cCarousel-item">
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DBzD5NXx_35/embed" frameborder="0"></iframe>
+       
+          </article>
+
+          <article class="cCarousel-item">
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DBbZm78uHbe/embed" frameborder="0"></iframe>
+            
+          </article>
+
+
+          <article class="cCarousel-item">
+            <iframe id="frame" width="100%" scrolling="no"  height="568" src="https://www.instagram.com/p/DCHdP1wOoaW/embed" frameborder="0"></iframe>
+           
+          </article>
+
+          
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container_info">
+
+    <section class="_info">
+
+      <p><span class="dest_foot"> © Diretora clínica responsável:</span>
+        <br> Dra. Daniela Fontes da Silva Salgado<br><span class="dest_foot">  CRMSP:</span> n.º 1030497
+        <br><span class="dest_foot">Licença Sanitária:</span> CMVS n.º 355030801-863-072553-1-4
+        
+      </p>
+  
+
+
+    </section>
+
+  </div>
+
+  <footer class="footer">
+    <div class="rodape">
+      <span><a href="https://www.instagram.com/winnerstimeclinica/" target="_blank"><img
+            src="img/Instagram.png"></a></span>
+      <span><a
+          href="https://www.facebook.com/people/Winners-Time-Cl%C3%ADnica-M%C3%A9dica/61563748760838/?mibextid=ZbWKwL"
+          target="_blank"><img src="img/Facebook.png"></a></span>
+      <span><a href="https://api.whatsapp.com/send?phone=5511965470010" target="_blank"><img
+            src="img/WhatsApp.png"></a></span>
+      <span><a href="mailto:atendimento@winnerestime.com.br" target="_blank"><img src="img/email.png"></a></span>
+      <span class="bt_agendar_consulta"><a
+          href="https://estabelecimento.rappidexx.com.br/public-search-establishment/8f02ab20-8b89-4bbd-8b6a-c0afbb08e330"
+          target="_blank">Agendar Consulta</a></span>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/carousel.js"></script>
+
+  <script src="js/main.js"></script>
+
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
         }
-        </script>
+      });
+    }
+    </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      var video = document.getElementById("myVideo");
+      var fallbackImage = document.getElementById("fallbackImage");
+      
+      video.addEventListener("loadeddata", function () {
+          console.log("Vídeo carregado com sucesso!");
+      });
+      
+      video.addEventListener("error", function () {
+          console.error("Erro ao carregar o vídeo. Exibindo imagem alternativa.");
+          video.style.display = "none";
+          fallbackImage.style.display = "block";
+      });
+  });
+</script>
+
+
 </body>
+
 </html>
