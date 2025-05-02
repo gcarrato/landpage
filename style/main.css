@@ -144,6 +144,7 @@ li a .bt_menu img {
 .js .laptop-slider {
     overflow: hidden;
     color: white;
+    margin-top: 1em;
 }
 .laptop-slider p{
 
@@ -423,7 +424,7 @@ li a .bt_menu img {
 
 .people-cards__content {
     text-align: center;
-    padding: 0px 25px 10px;
+    padding: 0px 10px 10px;
 
 }
 
@@ -545,8 +546,7 @@ li a .bt_menu img {
 
 
 .last-articles__title {
-    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background: none;
 
 
 }
@@ -629,7 +629,7 @@ li a .bt_menu img {
     width: 100%;
     background-color: #242a2cc9;
     padding-top: 1.3em;
-    padding-bottom: .3em;
+    padding-bottom: .7em;
     display: flex;
     justify-content: center;
     z-index: 10000;
@@ -955,6 +955,30 @@ img.star_dep {
 }
 
 @media screen and (min-width: 1024px) {
+
+
+    .container_valor h3{
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #fff;
+        padding-left: 20px;
+        margin-bottom: 26px;
+        text-align: center;
+        line-height: 1.1;
+    }
+    .container_valor p{
+        padding: 0px 20px 10px 20px;
+        max-width: 950px;
+        margin: auto;
+        text-align: left;
+        color: #fff;
+    }
+.last-articles__title {
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
+
+}
 
     .container_valor{
         margin: 2em !important;
@@ -1588,13 +1612,50 @@ button.collapsible{
     overflow: hidden;
     border-radius: 20px;
 }
-/* ESTETICA CORPORAL */
+/* FIM */
+.container_fim{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    border-radius: 38px;
+
+}
+    .container_fim h3{
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #fff;
+        padding-left: 10px;
+        margin-bottom: 26px;
+        text-align: center;
+        line-height: 1.1;
+    }
+    .container_fim p{
+        padding: 0px 10px 10px 10px;
+        max-width: 950px;
+        margin: auto;
+        text-align: left;
+        color: #fff;
+    }
+    .center_fim {
+        border-radius: 38px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 1em 1em 2em 1em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    
+    }
 
 
 /* VALOR */
 
 .container_valor{
-    margin: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding-bottom: 2em;
     padding-top: 1em;
     background-color: #242a2c;
@@ -1604,13 +1665,13 @@ button.collapsible{
     font-size: 1.5em;
     font-weight: 400;
     color: #fff;
-    padding-left: 20px;
+    padding-left: 10px;
     margin-bottom: 26px;
     text-align: center;
     line-height: 1.1;
 }
 .container_valor p{
-    padding: 0px 20px 10px 20px;
+    padding: 0px 10px 10px 10px;
     max-width: 950px;
     margin: auto;
     text-align: left;
