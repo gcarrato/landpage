@@ -800,8 +800,8 @@ img.star_dep {
 }
 
 #container_iframe::-webkit-scrollbar {
-    width: 22px;
-    height: 25px !important;
+    width: 15%;
+    height: 35px !important;
     /* width of the entire scrollbar */
     overflow-x: visible;
     cursor: pointer;
@@ -814,9 +814,9 @@ img.star_dep {
 }
 
 #container_iframe::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 255, 255);
+    background: radial-gradient(ellipse farthest-corner at left top, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at right bottom, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
     /* color of the scroll thumb */
-    border-radius: 20px;
+    border-radius: 10px;
     /* roundness of the scroll thumb */
     border: 3px solid #000000;
     /* creates padding around scroll thumb */
