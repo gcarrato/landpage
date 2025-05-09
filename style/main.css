@@ -976,8 +976,9 @@ img.star_dep {
         font-weight: 400;
         color: #fff;
         padding-left: 20px;
+        padding-left: 20px;
         margin-bottom: 26px;
-        text-align: center;
+        text-align: left;
         line-height: 1.1;
     }
     .container_valor p{
@@ -1682,9 +1683,10 @@ button.collapsible{
     font-size: 1.5em;
     font-weight: 400;
     color: #fff;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 26px;
-    text-align: center;
+    text-align: left;
     line-height: 1.1;
 }
 .container_valor p{
