@@ -27,7 +27,7 @@ img {
 }
 
 .last-articles .container p {
-    color: #ffffff;
+    color:#353434;
     padding: 0px 25px 10px;
 
 }
@@ -328,7 +328,7 @@ li a .bt_menu img {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
     border: 0;
-    border-radius: 25px;
+    border-radius: 14px;
     box-shadow: rgb(22 13 40 / 40%) 0 2px 4px, rgb(5 5 5 / 30%) 0 7px 13px -3px, rgb(255 255 255) 0 -3px 0 inset;
     box-sizing: border-box;
     color: #fff;
@@ -464,7 +464,7 @@ li a .bt_menu img {
 .content h3 {
     font-size: 1.5em;
     font-weight: 400;
-    color:#ffffff;
+    color:#353434;
     padding-left: 20px;
     margin-bottom: 0;
 }
@@ -667,7 +667,7 @@ li a .bt_menu img {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
     border: 0;
-    border-radius: 25px;
+    border-radius: 14px;
     box-shadow: rgb(22 13 40 / 40%) 0 2px 4px, rgb(5 5 5 / 30%) 0 7px 13px -3px, rgb(255 255 255) 0 -3px 0 inset;
     box-sizing: border-box;
     color: #fff;
@@ -989,8 +989,7 @@ img.star_dep {
         color: #fff;
     }
 .last-articles__title {
-    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  
 
 
 }
@@ -1637,7 +1636,7 @@ button.collapsible{
     padding-bottom: 2em;
     padding-top: 1em;
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-    border-radius: 38px;
+   
 
 }
     .container_fim h3{
