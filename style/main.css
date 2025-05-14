@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat; 
     background-position: bottom center;*/
     background-size: 100%;
-    background-color: #000000;
+    background-color: #ffffff;
 
 }
 
@@ -27,7 +27,7 @@ img {
 }
 
 .last-articles .container p {
-    color: white;
+    color: #ffffff;
     padding: 0px 25px 10px;
 
 }
@@ -88,9 +88,9 @@ li a .bt_menu img {
 
 #bt_nav1 {
 
-    background-color: #353535;
-    border-radius: 50px;
-    color: white;
+    background-color: #ffffff;
+    border-radius: 19px;
+    color: #353434;
    
 }
 
@@ -145,7 +145,7 @@ li a .bt_menu img {
 
 .js .laptop-slider {
     overflow: hidden;
-    color: white;
+    color: #353434;
     margin-top: 1em;
 }
 .laptop-slider p{
@@ -439,7 +439,7 @@ li a .bt_menu img {
 
 .people-cards__text {
     text-align: left;
-    color: #ffffff;
+    color: #353434;
     font-size: 1em;
  
 }
@@ -464,7 +464,7 @@ li a .bt_menu img {
 .content h3 {
     font-size: 1.5em;
     font-weight: 400;
-    color: #fff;
+    color:#ffffff;
     padding-left: 20px;
     margin-bottom: 0;
 }
@@ -472,7 +472,7 @@ li a .bt_menu img {
 .center h3 {
     font-size: 1.5em;
     font-weight: 400;
-    color: #fff;
+    color:#353434;
     padding-left: 20px;
 }
 
@@ -581,7 +581,7 @@ li a .bt_menu img {
 
 
 .laptop-slider {
-    background-color: #242a2c;
+    background-color: #ffffff;
     padding: 20px 0 50px;
     width: 100%;
     overflow: auto;
@@ -827,7 +827,7 @@ img.star_dep {
 /* Galeria responsiva */
 .container_galeria{
     margin: 0em;
-    background-color: #252a2c;
+    background-color: #f1f2f3;
     border-radius: 38px;
     padding-top: 2em;
     
@@ -835,14 +835,14 @@ img.star_dep {
     .container_galeria h3{
         font-size: 1.5em;
         font-weight: 400;
-        color: #fff;
+        color: #353434;
         padding-left: 20px;
         text-align: center;
     }
     
     .container_galeria p{
         text-align: left;
-        color: #ffffff;
+        color:#353434;
         font-size: 1em;
         max-width: 950px;
         margin: auto;
@@ -974,7 +974,7 @@ img.star_dep {
     .container_valor h3{
         font-size: 1.5em;
         font-weight: 400;
-        color: #fff;
+        color: #ffffff;
         padding-left: 20px;
         padding-left: 20px;
         margin-bottom: 26px;
@@ -999,7 +999,7 @@ img.star_dep {
         margin: 2em !important;
         padding-bottom: 2em;
         padding-top: 1em;
-        background-color: #242a2c;
+        background-color: #ffffff;
         border-radius: 38px;
        
        
@@ -1007,7 +1007,8 @@ img.star_dep {
 
     .container_galeria {
         margin: 2em;
-        background-color: #252a2c;
+        background-color: #f1f2f3;
+
         border-radius: 38px;
         padding-top: 2em;
     }
@@ -1557,7 +1558,7 @@ a.bt_ver {
 
     font-size: 1.5em;
     font-weight: 400;
-    color: rgb(255, 255, 255);
+    color:#353434;
     padding-left: 20px;
 }
 .center_fac h3 span img{
@@ -1675,14 +1676,14 @@ button.collapsible{
     margin-bottom: 1em;
     padding-bottom: 2em;
     padding-top: 1em;
-    background-color: #242a2c;
+    background-color:#ffffff;
     border-radius: 38px;
    
 }
 .container_valor h3{
     font-size: 1.5em;
     font-weight: 400;
-    color: #fff;
+    color:#353434;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 26px;
@@ -1731,7 +1732,7 @@ button.collapsible{
     font-weight: 600;
 }
  .center_valor p {
-    color: #ffffff;
+    color: #353434;
     font-size: .9em;
     text-align: left;
 }
