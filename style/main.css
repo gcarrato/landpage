@@ -56,10 +56,10 @@ img {
 .logo-text {
 
     margin: 0;
-    background-image: url("../img/logo-mobile.png");
+    background-image: url("../img/logo _mobile.svg");
     background-repeat: no-repeat;
-    width: 91px;
-    height: 41px;
+    width: 101px;
+    height: 51px;
     float: left;
     margin: .7em .4em .4em .7em;
 
@@ -1104,7 +1104,7 @@ img.star_dep {
     .logo-text {
         width: 45%;
         box-sizing: border-box;
-        background-image: url("../img/logo.png");
+        background-image: url("../img/logo.svg");
         background-repeat: no-repeat;
         display: block;
         width: 270px;
