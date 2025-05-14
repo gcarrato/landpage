@@ -1276,7 +1276,7 @@ img.star_dep {
     width: 2em;
     height: 2em;
     color: white;
-    /* background-color: #30ea69; */
+    background-color: #000000;
     border-radius: 50%;
     display: flex;
     justify-content: space-between;
