@@ -836,7 +836,8 @@ img.star_dep {
         font-size: 1.5em;
         font-weight: 400;
         color: #353434;
-        padding-left: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
     }
     
@@ -1752,7 +1753,7 @@ text-align: left;
     display: block;
     width: auto;
    
-    margin: 0 2em 0 0;
+   
    
     justify-content: center;
    
