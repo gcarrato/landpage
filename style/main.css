@@ -455,14 +455,14 @@ li a .bt_menu img {
 
 .people-cards__content h3 {
 
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: 400;
-    color: rgb(131, 129, 129);
+    color: rgb(0, 0, 0);
     padding-left: 20px;
 }
 
 .content h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 400;
     color:#353434;
    
@@ -470,10 +470,12 @@ li a .bt_menu img {
 }
 
 .center h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 400;
     color:#353434;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .quote-slideshow h3 {
@@ -833,12 +835,21 @@ img.star_dep {
     
     }
     .container_galeria h3{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
         color: #353434;
         padding-left: 10px;
         padding-right: 10px;
         text-align: center;
+    }
+
+    .container_galeria h4{
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #353434;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center !important;
     }
     
     .container_galeria p{
@@ -928,6 +939,9 @@ img.star_dep {
       .whatsapp-icon:hover {
         transform: scale(1.1);
       }
+
+
+
 /*RESPONSIVO */
 @media (orientation: landscape) {
     .hero {
@@ -973,7 +987,7 @@ img.star_dep {
     }
 
     .container_valor h3{
-        font-size: 1.5em;
+        font-size: 2em !important;
         font-weight: 400;
         color: #ffffff;
         padding-left: 20px;
@@ -1213,6 +1227,7 @@ img.star_dep {
   
     .center h3{
         font-size: 2em;
+        text-align: center;
     }
 .content h3{
     font-size: 2em;
@@ -1681,7 +1696,7 @@ button.collapsible{
    
 }
 .container_valor h3{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 400;
     color:#353434;
     padding-left: 20px;
@@ -1747,7 +1762,7 @@ button.collapsible{
 }
 .center_valor .card h3{
 
-text-align: left;
+text-align: center;
 }
 .center_valor .card {
     display: block;
