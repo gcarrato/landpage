@@ -298,13 +298,13 @@ li a .bt_menu img {
     filter: drop-shadow(2px 2px 3px #00000088);
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: .5em;
+ 
    
 }
 .hero__title2 {
 
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 400;
     font-family: 'Poppins';
     filter: drop-shadow(2px 2px 3px #00000088);
@@ -1003,11 +1003,6 @@ img.star_dep {
         text-align: left;
         color: #fff;
     }
-.last-articles__title {
-  
-
-
-}
 
     .container_valor{
         margin: 2em !important;
@@ -1076,6 +1071,7 @@ img.star_dep {
 
     .hero__title {
         font-size: 2em;
+        padding-bottom: .5em;
     }
 
     .ms_natal {
@@ -1122,7 +1118,7 @@ img.star_dep {
         background-image: url("../img/logo.svg");
         background-repeat: no-repeat;
         display: block;
-        width: 270px;
+        width: 310px;
         height: 60px;
 
         margin-top: 1.6em;
