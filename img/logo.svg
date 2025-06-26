@@ -12,7 +12,7 @@
 </style>
 <g>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.0169" y1="-763.8359" x2="99.3077" y2="-763.8359" gradientTransform="matrix(1 0 0 -1 0 -724)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.0168" y1="-763.8359" x2="99.3076" y2="-763.8359" gradientTransform="matrix(1 0 0 -1 0 -724)">
 		<stop  offset="0" style="stop-color:#C7992F"/>
 		<stop  offset="0.1507" style="stop-color:#B57E11"/>
 		<stop  offset="0.9257" style="stop-color:#B57E11"/>
@@ -43,7 +43,7 @@
 		c1.6,0.4,3,0.9,4.2,1.5L39.1,8.4z"/>
 	<path class="st1" d="M51.7,32.1c0.8-0.3,1.3-1.1,1.5-2.3V6.9c-0.2-1.2-0.7-2-1.5-2.3h14.4v2.7c-0.2-1.2-0.7-2-1.5-2.3h-8.1v12.7
 		h5.2c0.8-0.3,1.3-1.1,1.5-2.3v5.1c-0.2-1.2-0.7-2-1.5-2.3h-5.2v13.6h8.7c0.4-0.4,0.6-1,0.8-1.9v2.3H51.7V32.1z"/>
-	<text transform="matrix(1.1 0 0 1 107.9448 49.3482)" class="st1 st2 st3">Cirurgia Plástica Medicina Estética e Odontologia </text>
+	<text transform="matrix(1.1 0 0 1 107.9448 49.3482)" class="st1 st2 st3">Cirurgia Plástica Odontologia e Medicina Estética </text>
 	<text transform="matrix(1 0 0 1 110.079 34.5225)" class="st1 st4 st5">AUTOESTIMA</text>
 </g>
 </svg>
