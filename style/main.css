@@ -801,30 +801,7 @@ img.star_dep {
     height: 344px
 }
 
-#container_iframe::-webkit-scrollbar {
-    width: 15%;
-    height: 35px !important;
-    /* width of the entire scrollbar */
-    overflow-x: visible;
-    cursor: pointer;
-    touch-action: auto;
-}
 
-#container_iframe::-webkit-scrollbar-track {
-    /* color of the tracking area */
-    overflow-x: visible;
-}
-
-#container_iframe::-webkit-scrollbar-thumb {
-    background: radial-gradient(ellipse farthest-corner at left top, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at right bottom, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-    /* color of the scroll thumb */
-    border-radius: 10px;
-    /* roundness of the scroll thumb */
-    border: 3px solid #000000;
-    /* creates padding around scroll thumb */
-    overflow-x: visible;
-
-}
    /* GALERIA */
 /* Galeria responsiva */
 .container_galeria{
@@ -1928,4 +1905,64 @@ background-image: linear-gradient(92.83deg, #e51818 0, #681403 100%);
     }
    }
 
- 
+   .centraliza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  #container_iframe {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 20px 0;
+  }
+
+  #container_iframe > div {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    width: 360px;
+    height: 388px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #container_iframe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+
+
+
+
+  #container_iframe::-webkit-scrollbar {
+    width: 15%;
+    height: 35px !important;
+    /* width of the entire scrollbar */
+    overflow-x: visible;
+    cursor: pointer;
+    touch-action: auto;
+}
+
+#container_iframe::-webkit-scrollbar-track {
+    /* color of the tracking area */
+    overflow-x: visible;
+}
+
+#container_iframe::-webkit-scrollbar-thumb {
+    background: radial-gradient(ellipse farthest-corner at left top, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at right bottom, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    /* color of the scroll thumb */
+    border-radius: 10px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #000000;
+    /* creates padding around scroll thumb */
+    overflow-x: visible;
+
+}
